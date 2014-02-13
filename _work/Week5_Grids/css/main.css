@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 1rem 4rem 2rem 4rem;
+}
+
+/*header{
+	padding: 1rem 2rem 0 2rem;
+	background-color: blue;
+}*/
+
+h1.global{
+	font-size: 1.8rem;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+h1.topFive{
+	font-size: 1.8rem;
+	text-align: left;
+	color:blue;
+}
+
+p.homepromo, p.aboutus,p.history,p.news,p.promotion,p.events{
+	text-align: left;
+}
+p.aboutus,p.history,p.news,p.promotion,p.events{
+	margin-bottom: 2rem;
+	margin-top: 0;
+}
+
+/*a.side{
+	margin-bottom: 2rem;
+}*/
+
+#aboutus,#history,#news,#events,#promotion{
+	padding-left:2rem;
+}
+
+#square{
+/*	display: inline-block;*/
+	width: 382px;
+	height: 319px;
+}
+
+#square{
+	background-color: blue;
+}
+#square2{
+/*	display: inline-block;*/
+	width: 360px;
+	height: 100px;
+	float: right;
+	margin-top:5px; 
+}
+
+#square2{
+	background-color: gray;
+}
+
+#square3{
+/*	display: inline-block;*/
+	margin-top: 0.5rem; 
+	width: 180px;
+	height: 170px;
+}
+
+#square3{
+	background-color: gray;
+}
