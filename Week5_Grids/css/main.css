@@ -1,0 +1,363 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	margin: 0;
+	/*padding: 1rem 4rem 2rem 4rem;*/
+	
+}
+
+header{
+	padding: 1rem 4rem 0.1rem 4rem;
+	background-color: white;
+}
+#content{
+	padding: 2rem 4rem 2rem 4rem;
+	/*background-color: #fefcf0;*/
+}
+#content2{
+	/*display: inline-block;*/
+	padding: 1rem 6rem 2rem 4rem;
+}
+
+
+nav.header a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.15rem;
+}
+
+nav.header a.onpage{
+	/*color: #f4c367;*/
+	background-color: #a7d7e6;
+	color:#077d9d;
+	font-weight: bold;
+}
+
+nav.header a{
+	color:#a7d7e6;
+	text-decoration: none;
+	padding:1rem 1rem;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+nav.header a:hover{
+	background-color: #a7d7e6;
+	color:gray;
+}
+
+/*nav.header a:focus, nav.header a:active{
+	color:#f4c367;
+	font-weight: bold;
+	background-color: white;
+}*/
+
+a{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a.side{
+	display: inline-block;
+	font-size: 1.2rem;
+	text-decoration: none;
+
+	background-color: #fefcf0;
+	text-decoration: none;
+	color: #f4c367;
+	padding:1rem 0;
+	width: 70%;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	border-width: 1px;
+	float:right;
+
+}
+a.sideNone{
+	display: inline-block;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color:white;
+	padding:1rem 0;
+	width: 70%;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	border-width: 1px;
+	float:right;
+	background-color: #e6e7e8;
+}
+
+a.sideonpage{
+	display: inline-block;
+	font-size: 1.2rem;
+	text-decoration: none;
+	background-color: #f4c367;
+	color:white;
+	padding:1rem 0;
+	width: 70%;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	border-width: 1px;
+	float:right;
+}
+
+
+
+a.side:hover,a.side:focus,a.side:active{
+	background-color: white;
+	text-decoration: none;
+	color: #f4c367;
+}
+
+a.createN{
+	float:right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	margin-right: 3rem;
+	background-color:  #ee5260 ;
+	border-radius: 10px;
+	width:130px;
+	color: white;
+}
+a.createN:hover{
+	color: black;
+}
+
+
+a.cart{
+	text-decoration: none;
+	color: black;
+}
+a.cart:hover{
+	text-decoration: underline;
+	color: black;
+}
+a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
+	float:right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	margin-right: 3rem;
+	background-color:  #ee5260 ;
+	border-radius: 10px;
+	width:130px;
+	color: white;
+}
+a.doneNoodBut,a.createN{
+	margin-top: 2rem;
+}
+a.cartBut:hover,a.persoanlbillBut:hover,a.conBut:hover,
+a.doneNoodBut:hover{
+	color: black;
+}
+
+a.buynowBut{
+	float:right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	margin-right: 4rem;
+	margin-top: 2rem;
+	background-color:  #ee5260 ;
+	border-radius: 10px;
+	width:130px;
+	color: white;
+}
+a.buynowBut:hover{
+	color: black;
+}
+a.takeoutBut,a.dineinBut{
+	font-size: 1.2rem;
+}
+a.takeoutBut:hover, a.dineinBut:hover{
+	text-decoration: underline;
+}
+
+
+
+h1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 2rem;
+}
+
+h1.global{
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+h1.cartpage{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+h1.topFive{
+	text-align: left;
+	color:black;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	text-align: left;
+	font-weight: 700;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: left;
+}
+h3.cart{
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+}
+p.homepromo, p.aboutus,p.history,p.news,p.promotion,p.events,
+p.contact,p.cart,p.pi{
+	text-align: left;
+}
+p.homepromo{
+	padding-right: 1rem;
+}
+p.aboutus,p.history,p.news,p.promotion,p.events{
+	margin-bottom: 2rem;
+	margin-top: 0;
+	padding-right: 2rem;
+}
+
+p.cartNrow{
+	display: inline-block;
+	text-align: left;
+	width:70px;
+	float:left;
+	margin-bottom: 0.5rem;
+}
+
+p.cartProw{
+	display: inline-block;
+	float:right;
+	margin-right: 43px;
+	margin-bottom: 0.5rem;
+}
+
+p.cartDrow{
+	display: inline-block;
+	text-align: left;
+	padding-right: 43px;
+	margin-top: 0;
+}
+p.date{
+	margin-top: 0;
+	text-align: left;
+}
+
+/*a.side{
+	margin-bottom: 2rem;
+}*/
+
+img{
+	float: left;
+	margin-bottom: 1rem;
+}
+
+img.home{
+	margin-bottom: 0;
+}
+
+img.homeside{
+	float: right;
+	margin-top:5px; 
+}
+
+img.homebottom{
+		margin-top: 0.5rem; 
+}
+
+img.menu{
+	margin-bottom: 0;
+}
+img.cart{
+	margin-bottom: 0;
+	margin-right: 1rem;
+}
+
+#aboutus,#history,#news,#events,#promotion,#cartnoodles,#soup,
+#drinks,#dessert,#paddingleft{
+	padding-left:5rem;
+}
+
+#cartnoodles,#soup,#drinks,#dessert{
+	display: inline-block;
+}
+#menu{
+	margin-bottom: 2rem;
+}
+
+
+#carttotal{
+	float:right;
+	border-top: solid;
+	border-width: 1px;
+}
+#total{
+	float:right;
+}
+
+#div1,#div2{
+	display: inline-block;
+	float: left;
+	width: 431px;
+}
+
+form{
+	margin-top: 0.5rem;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+}
+label{
+	display: inline-block;
+	clear:left
+}
+
+
+#square{
+/*	display: inline-block;*/
+	width: 382px;
+	height: 319px;
+}
+
+#square{
+	background-color: blue;
+}
+#square2{
+/*	display: inline-block;*/
+	width: 360px;
+	height: 100px;
+	float: right;
+	margin-top:5px; 
+}
+
+#square2{
+	background-color: gray;
+}
+
+#square3{
+/*	display: inline-block;*/
+	margin-top: 0.5rem; 
+	width: 180px;
+	height: 170px;
+}
+
+#square3{
+	background-color: gray;
+}
