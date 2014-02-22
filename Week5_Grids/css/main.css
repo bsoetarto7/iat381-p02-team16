@@ -12,12 +12,12 @@ header{
 	background-color: white;
 }
 #content{
-	padding: 2rem 4rem 2rem 4rem;
+	padding: 2rem 4rem 0 4rem;
 	/*background-color: #fefcf0;*/
 }
 #content2{
 	/*display: inline-block;*/
-	padding: 1rem 6rem 2rem 4rem;
+	padding: 1rem 4rem 2rem 4rem;
 }
 
 nav.header{
@@ -144,7 +144,7 @@ a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
 	padding: 0.5rem;
 	margin-right: 3rem;
 	background-color:  #ee5260 ;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	width:130px;
 	color: white;
 }
@@ -156,7 +156,7 @@ a.doneNoodBut:hover{
 	color: black;
 }
 
-a.buynowBut{
+a.buynowBut,a.addtocart{
 	float:right;
 	display: inline-block;
 	text-decoration: none;
@@ -165,11 +165,15 @@ a.buynowBut{
 	margin-right: 4rem;
 	margin-top: 2rem;
 	background-color:  #ee5260 ;
-	border-radius: 10px;
 	width:130px;
 	color: white;
 }
-a.buynowBut:hover{
+
+a.addtocart{
+	margin: 1rem 0 0 0 ;
+}
+
+a.buynowBut:hover,a.addtocart:hover{
 	color: black;
 }
 a.takeoutBut,a.dineinBut{
@@ -181,9 +185,12 @@ a.takeoutBut:hover, a.dineinBut:hover{
 
 
 
+
+
 h1{
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 2rem;
+	color: #5b5744;
 }
 
 h1.global{
@@ -198,7 +205,7 @@ h1.cartpage{
 }
 h1.topFive{
 	text-align: left;
-	color:black;
+	margin-bottom: 1rem;
 }
 
 h2{
@@ -206,6 +213,7 @@ h2{
 	font-size: 1.2rem;
 	text-align: left;
 	font-weight: 700;
+	color: #5b5744;
 }
 
 h3{
@@ -213,16 +221,19 @@ h3{
 	font-size: 1.2rem;
 	font-weight: 400;
 	text-align: left;
+	color: #5b5744;
 }
 h3.cart{
 	font-size: 1rem;
 	font-weight: 300;
+	color: #5b5744;
 }
 
 
 p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9rem;
+	color: #5b5744;
 }
 p.homepromo, p.aboutus,p.history,p.news,p.promotion,p.events,
 p.contact,p.cart,p.pi{
@@ -277,9 +288,35 @@ img.home{
 }
 
 img.homeside{
-	float: right;
-	margin-top:5px; 
+	margin-bottom: 5px;
 }
+
+p.homeside{
+	padding: 0.7rem;
+	margin:0 0 1.3rem 0;
+	display: inline-block;
+	width:250px;
+	background-color: white;	
+}
+p.homesideonpage{
+	padding: 0.7rem;
+	margin:0 0 1.3rem 0;
+	display: inline-block;
+	width:250px;
+	background-color: #f4c367;
+
+}
+
+p.homeside:hover{
+	padding: 0.7rem;
+	margin:0 0 1.3rem 0;
+	display: inline-block;
+	width:250px;
+	background-color: #f4c367;
+
+}
+
+
 
 img.homebottom{
 		margin-top: 0.5rem; 
@@ -319,6 +356,15 @@ img.cart{
 	display: inline-block;
 	float: left;
 	width: 431px;
+}
+
+.rowGlobal{
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+.rowGlobalsideimage{
+	display: inline-block;
+	padding: 0 1.1rem;
 }
 
 form{
