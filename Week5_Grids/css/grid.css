@@ -8,20 +8,32 @@
 	margin-bottom: 1rem;
 }
 
-.col-1of2{
-	width: 50%;
+.col-1of24{
+	width: 4.1666%;
 }
 
-.col-1of12{
+.col-2of24{
 	width:8.3333%;
 }
 
-.col-2of12{
-	width:16.66667%;
+.col-3of24{
+	width:12.5%;
 }
 
-.col-3of12{
+.col-4of24{
+	width:16.6666%;
+}
+
+.col-5of24{
+	width:20.8333%;
+}
+
+.col-6of24{
 	width:25%;
+}
+
+.col-3of11{
+	width:27.2727%;
 }
 
 .col-1of3{

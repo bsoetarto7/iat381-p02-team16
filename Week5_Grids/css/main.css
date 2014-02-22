@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body{
-	margin: 0;
+	margin: 1rem 6rem 0 6rem;
 	/*padding: 1rem 4rem 2rem 4rem;*/
 	
 }
@@ -20,30 +20,33 @@ header{
 	padding: 1rem 6rem 2rem 4rem;
 }
 
+nav.header{
+	margin-top: 0.4rem;
+}
 
 nav.header a{
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1.15rem;
+	font-size: 1rem;
 }
 
 nav.header a.onpage{
 	/*color: #f4c367;*/
-	background-color: #a7d7e6;
-	color:#077d9d;
+	background-color: #2cabbd;
+	color:white;
 	font-weight: bold;
 }
 
 nav.header a{
-	color:#a7d7e6;
+	color:#2cabbd;
 	text-decoration: none;
-	padding:1rem 1rem;
-	border-radius: 10px;
+	padding:1rem 0.8rem;
+	/*border-radius: 10px;*/
 	font-weight: bold;
 }
 
 nav.header a:hover{
-	background-color: #a7d7e6;
-	color:gray;
+	background-color: #2cabbd;
+	color: white;
 }
 
 /*nav.header a:focus, nav.header a:active{
