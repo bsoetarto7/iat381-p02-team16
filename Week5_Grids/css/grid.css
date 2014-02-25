@@ -68,7 +68,7 @@
 }
 .col-4of5{
 	width:80%;
-	margin-left: 20%;
+	margin-left: 18.5%;
 }
 
 .grid:after{
@@ -82,4 +82,37 @@
 	-moz-box=sizing:border-box;
 	box-sizing:border-box;
 }
+
+@media(max-width: 1200px){
+	.col-4of5{
+		width:80%;
+	}
+}
+@media(max-width: 700px){
+	.col-1of3{
+		width:50%;
+	}
+	img{
+		width:70%;
+	}
+	p.cartProw,p.cartNrow{
+		width: 40%;
+		font-size:0.1rem;
+		margin-top: 0.2rem;
+	}
+	body{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#content{
+		padding-left: 0.5rem;
+		padding-right:0.5rem;
+	}
+	header{
+		padding-left: 0.5rem;
+		width:100%;
+	}
+}
+
+
 

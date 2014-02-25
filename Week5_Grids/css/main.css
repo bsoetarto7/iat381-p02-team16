@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body{
-	margin: 1rem 6rem 0 6rem;
+	margin: 0 6rem 0 6rem;
 	/*padding: 1rem 4rem 2rem 4rem;*/
 	
 }
@@ -10,9 +10,13 @@ body{
 header{
 	padding: 1rem 4rem 0.1rem 4rem;
 	background-color: white;
+	width: 74.5%;
+	position: fixed;
+
 }
 #content{
-	padding: 2rem 4rem 0 4rem;
+
+	padding: 8rem 4rem 0 4rem;
 	/*background-color: #fefcf0;*/
 }
 #content2{
@@ -64,15 +68,15 @@ a.side{
 	font-size: 1.2rem;
 	text-decoration: none;
 
-	background-color: #fefcf0;
+	background-color: #fcefda;
 	text-decoration: none;
-	color: #f4c367;
+	color: #f3c266;
 	padding:1rem 0;
-	width: 70%;
+	width: 85%;
 	margin-bottom: 1rem;
 /*	border-radius: 10px;*/
 	border-width: 1px;
-	float:right;
+	float:left;
 
 }
 a.sideNone{
@@ -93,7 +97,7 @@ a.sideonpage{
 	display: inline-block;
 	font-size: 1.2rem;
 	text-decoration: none;
-	background-color: #f4c367;
+	background-color: #f3c266;
 	color:white;
 	padding:1rem 0;
 	width: 70%;
@@ -106,9 +110,9 @@ a.sideonpage{
 
 
 a.side:hover,a.side:focus,a.side:active{
-	background-color: white;
+	background-color: #f3c266;
 	text-decoration: none;
-	color: #f4c367;
+	color: white;
 }
 
 a.createN{
@@ -156,6 +160,19 @@ a.doneNoodBut:hover{
 	color: black;
 }
 
+a.about{
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	background-color:  #ee5260 ;
+	/*border-radius: 10px;*/
+	width:130px;
+	color: white;
+}
+
+
 a.buynowBut,a.addtocart{
 	float:right;
 	display: inline-block;
@@ -170,7 +187,19 @@ a.buynowBut,a.addtocart{
 }
 
 a.addtocart{
+	display: inline-block;
 	margin: 1rem 0 0 0 ;
+}
+
+a.prodcomment{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0.5rem;
+	font-size: 0.7rem;
+	color: #5b5744;
+}
+a.prodcomment:hover{
+	font-weight: bold;
 }
 
 a.buynowBut:hover,a.addtocart:hover{
@@ -210,10 +239,10 @@ h1.topFive{
 
 h2{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	text-align: left;
 	font-weight: 700;
-	color: #5b5744;
+	color: #2cabbd;
 }
 
 h3{
@@ -223,12 +252,12 @@ h3{
 	text-align: left;
 	color: #5b5744;
 }
+
 h3.cart{
 	font-size: 1rem;
 	font-weight: 300;
 	color: #5b5744;
 }
-
 
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -251,24 +280,47 @@ p.aboutus,p.history,p.news,p.promotion,p.events{
 p.cartNrow{
 	display: inline-block;
 	text-align: left;
-	width:70px;
 	float:left;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0;
+	margin-top: 0.5rem;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 p.cartProw{
 	display: inline-block;
 	float:right;
-	margin-right: 43px;
+	margin-right: 19px;
 	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
 }
 
 p.cartDrow{
 	display: inline-block;
 	text-align: left;
-	padding-right: 43px;
+	width:210px;
+	padding-right: 19px;
 	margin-top: 0;
 }
+
+p.homeNrow{
+	display: inline-block;
+	text-align: left;
+	font-size: 1rem;
+	float:left;
+	margin-bottom: 0;
+	margin-top: 0.5rem;
+	font-weight: bold;
+}
+
+p.homeProw{
+	display: inline-block;
+	float:right;
+	margin-right: 22px;
+	/*margin-bottom: 0.5rem;*/
+	margin-top: 0.5rem;
+}
+
 p.date{
 	margin-top: 0;
 	text-align: left;
@@ -291,6 +343,7 @@ img.homeside{
 	margin-bottom: 5px;
 }
 
+
 p.homeside{
 	padding: 0.7rem;
 	margin:0 0 1.3rem 0;
@@ -298,13 +351,14 @@ p.homeside{
 	width:250px;
 	background-color: white;	
 }
+
 p.homesideonpage{
 	padding: 0.7rem;
 	margin:0 0 1.3rem 0;
 	display: inline-block;
 	width:250px;
 	background-color: #f4c367;
-
+	font-weight: bold;
 }
 
 p.homeside:hover{
@@ -313,13 +367,14 @@ p.homeside:hover{
 	display: inline-block;
 	width:250px;
 	background-color: #f4c367;
-
+	font-weight: bold;
 }
 
 
 
 img.homebottom{
-		margin-top: 0.5rem; 
+	margin-top: 0.5rem;
+	margin-bottom: 0; 
 }
 
 img.menu{
@@ -331,8 +386,14 @@ img.cart{
 }
 
 #aboutus,#history,#news,#events,#promotion,#cartnoodles,#soup,
-#drinks,#dessert,#paddingleft{
+#drinks,#dessert{
+	display: inline-block;
+	margin-bottom: 4rem;
 	padding-left:5rem;
+}
+
+#paddingleft{
+	padding-left: 5rem;
 }
 
 #cartnoodles,#soup,#drinks,#dessert{
@@ -345,8 +406,11 @@ img.cart{
 
 #carttotal{
 	float:right;
+	width:70.5%;
+	margin-right:1.6rem; 
 	border-top: solid;
 	border-width: 1px;
+	
 }
 #total{
 	float:right;
