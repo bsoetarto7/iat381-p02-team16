@@ -9,25 +9,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
- 	</script>
-
-    <script>
-    	$(document).ready(function(){
-    		$("#div1").hide();
-    		$("#div2").hide();
-    		
-			$("#dineinBut").on('click', function() {
-		   		$("#div1").fadeIn();
-		   		$("#div2").fadeOut();
-			});
-			$("#takeoutBut").on('click', function() {
-		   		$("#div2").fadeIn();
-		   		$("#div1").fadeOut();
-			});
-		});
-	</script>
-
   	</head>
 
   	<body>
@@ -111,6 +92,8 @@
   			</div>
 
   		</article>
+  		<script src="js/jquery.js"></script>
+      	<script src="js/ui.js"></script>
   	</body>
 </html>
 
