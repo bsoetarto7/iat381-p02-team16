@@ -107,28 +107,79 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
-	.col-1of3{
-		width:50%;
-	}
-	img{
-		width:100%;
-	}
-	img.menu{
-		width:80%;
-	}
-	p.cartProw,p.cartNrow{
-		width: 40%;
-		font-size:0.1rem;
-		margin-top: 0.2rem;
+
+	.col-1of5{
+		width:28%;
 	}
 
-	#content{
+	#aboutus,#history,#news,#events,#promotion{
+		width:90%;
+	}
+
+	h1.global,h1.topFive{
+		font-size: 1.7rem;
+	}
+
+	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
+	p.promotion,p.events{
+		font-size: 0.85rem;
+	}
+
+	p.homeside,p.homesideonpage{
+		font-size: 0.8rem;
+	}
+
+	p.cartNrow{
+		font-size:0.85rem;
+	}
+
+	p.cartProw{
+		font-size: 0.85rem;
+		/*margin-right: 0;*/
+	}
+	p.cartDrow{
+		font-size: 0.75rem;
+		width: 90%;
+		/*margin-right: 0;*/
+	}
+
+
+
+	img.about{
+		width:100%;
+	}
+	img.homebottom{
+		width:90%;
+	}
+	img.logo{
+		width:100%;
+	}
+
+
+	img.menu{
+		width:95%;
+	}
+	img#unselected.menu{
+		width: 95%;
+		height: 95%;
+	}
+
+	img#selected.menu{
+		width:85%;
+		height: 85%;
+	}
+
+
+	
+
+	#content,#content2{
 		padding-left: 0.5rem;
 		padding-right:0.5rem;
 	}
+
 	header{
 		padding-left: 0.5rem;
-		width:100%;
+		width:98%;
 	}
 }
 
