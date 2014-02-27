@@ -8,6 +8,10 @@
 	margin-bottom: 1rem;
 }
 
+.col-1of2{
+	width: 50%;
+}
+
 .col-1of24{
 	width: 4.1666%;
 }
@@ -83,7 +87,7 @@
 	box-sizing:border-box;
 }
 
-@media(max-width: 1200px){
+/*@media(max-width: 1200px){
 	.col-4of5{
 		width:80%;
 	}
@@ -116,3 +120,4 @@
 
 
 
+*/

@@ -4,7 +4,6 @@
 body{
 	margin: 0 6rem 0 6rem;
 	/*padding: 1rem 4rem 2rem 4rem;*/
-	
 }
 
 header{
@@ -12,13 +11,14 @@ header{
 	background-color: white;
 	width: 74.5%;
 	position: fixed;
-
 }
+
 #content{
 
 	padding: 8rem 4rem 0 4rem;
 	/*background-color: #fefcf0;*/
 }
+
 #content2{
 	/*display: inline-block;*/
 	padding: 1rem 4rem 2rem 4rem;
@@ -36,14 +36,14 @@ nav.header a{
 nav.header a.onpage{
 	/*color: #f4c367;*/
 	background-color: #2cabbd;
-	color:white;
+	color: white;
 	font-weight: bold;
 }
 
 nav.header a{
 	color:#2cabbd;
 	text-decoration: none;
-	padding:1rem 0.8rem;
+	padding: 1rem 0.8rem;
 	/*border-radius: 10px;*/
 	font-weight: bold;
 }
@@ -71,26 +71,24 @@ a.side{
 	background-color: #fcefda;
 	text-decoration: none;
 	color: #f3c266;
-	padding:1rem 0;
+	padding: 1rem 0;
 	width: 85%;
 	margin-bottom: 1rem;
-/*	border-radius: 10px;*/
 	border-width: 1px;
-	float:left;
-
+	float: left;
 }
+
 a.sideNone{
 	display: inline-block;
 	font-size: 1.2rem;
 	text-decoration: none;
-	color:white;
-	padding:1rem 0;
-	width: 70%;
+	color: #bbbdc0;
+	padding: 1rem 0;
+	width: 85%;
 	margin-bottom: 1rem;
-	border-radius: 10px;
 	border-width: 1px;
-	float:right;
-	background-color: #e6e7e8;
+	float: left;
+	background-color: #fcefda;
 }
 
 a.sideonpage{
@@ -98,13 +96,12 @@ a.sideonpage{
 	font-size: 1.2rem;
 	text-decoration: none;
 	background-color: #f3c266;
-	color:white;
-	padding:1rem 0;
-	width: 70%;
+	color: white;
+	padding: 1rem 0;
+	width: 85%;
 	margin-bottom: 1rem;
-	border-radius: 10px;
 	border-width: 1px;
-	float:right;
+	float: left;
 }
 
 
@@ -116,17 +113,18 @@ a.side:hover,a.side:focus,a.side:active{
 }
 
 a.createN{
-	float:right;
+	float: right;
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5rem;
-	margin-right: 3rem;
+	/*margin-right: 3rem;*/
 	background-color:  #ee5260 ;
-	border-radius: 10px;
+/*	border-radius: 10px;*/
 	width:130px;
 	color: white;
 }
+
 a.createN:hover{
 	color: black;
 }
@@ -136,10 +134,12 @@ a.cart{
 	text-decoration: none;
 	color: black;
 }
+
 a.cart:hover{
 	text-decoration: underline;
 	color: black;
 }
+
 a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
 	float:right;
 	display: inline-block;
@@ -152,9 +152,11 @@ a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
 	width:130px;
 	color: white;
 }
+
 a.doneNoodBut,a.createN{
 	margin-top: 2rem;
 }
+
 a.cartBut:hover,a.persoanlbillBut:hover,a.conBut:hover,
 a.doneNoodBut:hover{
 	color: black;
@@ -166,20 +168,24 @@ a.about{
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5rem;
+	/*margin-right: 2rem;*/
 	background-color:  #ee5260 ;
 	/*border-radius: 10px;*/
 	width:130px;
 	color: white;
 }
 
+a.about:hover{
+	color: black;
+}
+
 
 a.buynowBut,a.addtocart{
-	float:right;
+	float:left;
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5rem;
-	margin-right: 4rem;
 	margin-top: 2rem;
 	background-color:  #ee5260 ;
 	width:130px;
@@ -198,6 +204,7 @@ a.prodcomment{
 	font-size: 0.7rem;
 	color: #5b5744;
 }
+
 a.prodcomment:hover{
 	font-weight: bold;
 }
@@ -205,9 +212,11 @@ a.prodcomment:hover{
 a.buynowBut:hover,a.addtocart:hover{
 	color: black;
 }
+
 a.takeoutBut,a.dineinBut{
 	font-size: 1.2rem;
 }
+
 a.takeoutBut:hover, a.dineinBut:hover{
 	text-decoration: underline;
 }
@@ -226,6 +235,7 @@ h1.global{
 	text-align: left;
 	margin-top: 0;
 	margin-bottom: 0.5rem;
+	width: 100%;
 }
 h1.cartpage{
 	text-align: center;
@@ -270,6 +280,7 @@ p.contact,p.cart,p.pi{
 }
 p.homepromo{
 	padding-right: 1rem;
+	width:100%;
 }
 p.aboutus,p.history,p.news,p.promotion,p.events{
 	margin-bottom: 2rem;
@@ -341,6 +352,7 @@ img.home{
 
 img.homeside{
 	margin-bottom: 5px;
+	width: 100%;
 }
 
 
@@ -348,7 +360,8 @@ p.homeside{
 	padding: 0.7rem;
 	margin:0 0 1.3rem 0;
 	display: inline-block;
-	width:250px;
+	width:90%;
+	text-align: center;
 	background-color: white;	
 }
 
@@ -356,7 +369,7 @@ p.homesideonpage{
 	padding: 0.7rem;
 	margin:0 0 1.3rem 0;
 	display: inline-block;
-	width:250px;
+	width:90%;
 	background-color: #f4c367;
 	font-weight: bold;
 }
@@ -365,7 +378,7 @@ p.homeside:hover{
 	padding: 0.7rem;
 	margin:0 0 1.3rem 0;
 	display: inline-block;
-	width:250px;
+	width:90%;
 	background-color: #f4c367;
 	font-weight: bold;
 }
@@ -376,9 +389,14 @@ img.homebottom{
 	margin-top: 0.5rem;
 	margin-bottom: 0; 
 }
+img.contact{
+	margin-bottom: 0;
+	float: left;	
+}
 
 img.menu{
 	margin-bottom: 0;
+
 }
 img.cart{
 	margin-bottom: 0;
@@ -403,6 +421,12 @@ img.cart{
 	margin-bottom: 2rem;
 }
 
+#paddingleftNext{
+	float: left;
+	padding-left: 5rem;
+	margin-top: 2rem;
+}
+
 
 #carttotal{
 	float:right;
@@ -419,7 +443,11 @@ img.cart{
 #div1,#div2{
 	display: inline-block;
 	float: left;
-	width: 431px;
+	width: 100%;
+}
+
+#secondstore{
+	margin-top: 2rem;
 }
 
 .rowGlobal{
