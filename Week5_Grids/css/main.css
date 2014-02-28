@@ -304,10 +304,13 @@ h3{
 }
 
 h3.cart{
-	font-size: 1rem;
-	font-weight: 300;
+	font-size: 1.2rem;
+	/*text-align: right;*/
+	margin-left: 4.5rem;
+	font-weight: none;
 	color: #5b5744;
 }
+
 h3.detailview{
 	float: left;
 	display: inline-block;
@@ -516,8 +519,9 @@ img.cart{
 
 #carttotal{
 	float:right;
-	width:70.5%;
-	margin-right:1.6rem; 
+	width:69.8%;
+	margin-right: 2rem;
+	/*margin-right:1.6rem; */
 	border-top: solid;
 	border-width: 1px;
 	
@@ -567,6 +571,7 @@ form{
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9rem;
+	color: #5b5744;
 }
 label{
 	display: inline-block;

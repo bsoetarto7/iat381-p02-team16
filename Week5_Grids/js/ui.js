@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	//debuggin code	
 	$("img").click(function(){
-		if(($(this).attr("id"))==="unselected"){
+		if(($(this).attr("id"))=="unselected"){
+			console.log($(this).attr("id"))
 			$(this).attr("id","selected");
 			$("a#selectside2.sideNone").attr("class","sideonpage")
 										.attr("href","choosetoppings.html");
@@ -10,9 +11,9 @@ $(document).ready(function(){
 			$("a#selectside4.sideNone").attr("class","sideonpage")
 										.attr("href","donenood.html");
 		}
-		else{
-			$(this).attr("id","unselected");
-		}  		
+		// if(($(this).attr("id"))==="selected"){
+		// 	$(this).attr("id","unselected");
+		// }  		
 	});
 
 	$("#div1").hide();
