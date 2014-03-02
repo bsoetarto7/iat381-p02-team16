@@ -152,6 +152,18 @@ a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
 	width:130px;
 	color: white;
 }
+a.cartBut2{
+	float:right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	background-color:  #ee5260 ;
+	/*border-radius: 10px;*/
+	width:130px;
+	color: white;
+	margin-right: 1.3rem;
+}
 
 a.doneNoodBut,a.createN{
 	margin-top: 2rem;
@@ -231,6 +243,7 @@ a.prodcomment:hover{
 
 a.prodcommentdetailview:hover{
 	font-weight: bold;
+
 }
 
 a.buynowBut:hover,a.addtocart:hover,a.detailviewaddtocart:hover{
@@ -306,11 +319,37 @@ h3{
 }
 
 h3.cart{
-	font-size: 1.2rem;
+	text-align: right;
+	font-size: 1rem;
 	/*text-align: right;*/
 	margin-left: 4.5rem;
 	font-weight: none;
 	color: #5b5744;
+}
+h3#carttotalprice.cart{
+	font-weight: bold;
+}
+
+h3#carttitle{
+	color:#75625c;
+	font-size: 1rem;
+}
+
+h3#cartitemname{
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+h3.cartprice{
+	text-align: right;
+	margin-right: 0.3rem;
+	font-size: 1rem;
+}
+
+h3.cartquantity{
+	font-size: 1rem;
+	text-align: center;
+	margin-left: 5.9rem;
 }
 
 h3.detailview{
@@ -527,19 +566,35 @@ img.cart{
 }
 
 #paddingleftNext{
+	/*display: inline-block;
 	float: left;
-	padding-left: 5rem;
+	margin-left: 5rem;
 	margin-top: 2rem;
-	width: 100%;
+	width: 100%;*/
+
+	display: inline-block;
+	margin-left: 5rem;
+	margin-top: 1rem;
+	/*margin-right: 4rem;*/
+	width: 89%;
 }
 
+#cartlines{
+	display: inline-block;
+	margin-left: 5rem;
+	/*margin-right: 4rem;*/	
+	width: 88%;
+	border-bottom: solid;
+	border-color: #75625c;
+	border-width: 1px;
+}
 
 #carttotal{
 	float:right;
-	width:69.8%;
-	margin-right: 2rem;
-	/*margin-right:1.6rem; */
+	width:70.5%;
+	margin-right: 1.3rem;
 	border-top: solid;
+	border-color: #75625c;
 	border-width: 1px;
 	
 }
