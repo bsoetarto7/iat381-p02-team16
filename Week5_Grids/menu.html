@@ -8,6 +8,7 @@
 <!--     <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/imagehover2.css">
 
   	</head>
 
@@ -58,7 +59,14 @@
   					<h1 class="global">CART NOODLES</h1>
 
   					<div class="col-1of3" id="menu">
-              <img class="menu"src="img/nood1.jpg" width="210" height="150">
+              <!-- <img class="menu"src="img/nood1.jpg" width="210" height="150"> -->
+
+              <div class="view-first">  
+                 <img class="menu"src="img/nood1.jpg" width="210" height="150">
+                 <div class="mask">  
+                     <a href="detailview.html" class="info">VIEW DETAILS</a>  
+                 </div>  
+              </div>
   						<p class="cartNrow">Fishball Nood</p>
   						<p class="cartProw">$6.75</p>
               <p class="cartDrow">Curry fried fishballs with homemade special soup</p>
@@ -83,7 +91,7 @@
               <img class="rating"src="img/star.jpg">
               <a class="prodcomment" href="">48 Comments</a>
   					</div>
-<!--             <div class="col-1of3" id="menu">
+            <div class="col-1of3" id="menu">
               <img class="menu"src="img/nood4.jpg" width="210" height="150">
               <p class="cartNrow">Pork Lover</p>
               <p class="cartProw">$6.75</p>
@@ -108,7 +116,7 @@
               <p class="cartDrow">Special nood for who like soft food, different kinds of tofu</p>
               <img class="rating"src="img/star.jpg">
               <a class="prodcomment" href="">67 Comments</a>
-            </div> -->
+            </div>
           </article>
 
   				<article id="soup">
@@ -123,8 +131,8 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/soup.jpg" width="210" height="150">
-              <p class="cartNrow">Carrot Pork Soup</p>
+              <img class="menu"src="img/soup_pork.jpg" width="210" height="150">
+              <p class="cartNrow">Corn Pork Soup</p>
               <p class="cartProw">$3.50</p>
               <p class="cartDrow">Carrot, potato and juicy pork</p>
               <img class="rating"src="img/star.jpg">
@@ -132,8 +140,8 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/soup.jpg" width="210" height="150">
-              <p class="cartNrow">Carrot Pork Soup</p>
+              <img class="menu"src="img/soup_beef.jpg" width="210" height="150">
+              <p class="cartNrow">Beef Soup</p>
               <p class="cartProw">$3.50</p>
               <p class="cartDrow">Carrot, potato and juicy pork</p>
               <img class="rating"src="img/star.jpg">
@@ -171,19 +179,19 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/drink.jpg" width="210" height="150">
-              <p class="cartNrow">Ice Lemon Tea</p>
+              <img class="menu"src="img/drink_redbean.jpg" width="210" height="150">
+              <p class="cartNrow">Ice Reb Bean</p>
               <p class="cartProw">$1.50</p>
-              <p class="cartDrow">Red tea with slides of lemon</p>
+              <p class="cartDrow">With vanilla ice cream on the top and mixed red bean on the bottom</p>
               <img class="rating"src="img/star.jpg">
               <a class="prodcomment" href="">19 Comments</a>
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/drink.jpg" width="210" height="150">
-              <p class="cartNrow">Ice Lemon Tea</p>
+              <img class="menu"src="img/drink_milktea.jpg" width="210" height="150">
+              <p class="cartNrow">Ice Milktea</p>
               <p class="cartProw">$1.50</p>
-              <p class="cartDrow">Red tea with slides of lemon</p>
+              <p class="cartDrow">Hong Kong Style Milktea, mixed with the milk and red tea</p>
               <img class="rating"src="img/star.jpg">
               <a class="prodcomment" href="">19 Comments</a>
             </div>
@@ -228,8 +236,17 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/dessert.jpg" width="210" height="150">
-              <p class="cartNrow">French Toast</p>
+              <img class="menu"src="img/dessert_pineapplebutter.jpg" width="210" height="150">
+              <p class="cartNrow">Pineapple Butter Bun</p>
+              <p class="cartProw">$1.50</p>
+              <p class="cartDrow">Pineapple sweet bun with a thick butter</p>
+              <img class="rating"src="img/star.jpg">
+              <a class="prodcomment" href="">23 Comments</a>
+            </div>
+
+            <div class="col-1of3" id="menu">
+              <img class="menu"src="img/dessert_portturnover.jpg" width="210" height="150">
+              <p class="cartNrow">Pork Turnover</p>
               <p class="cartProw">$1.50</p>
               <p class="cartDrow">Soak bread in eggs and add milk and sugar</p>
               <img class="rating"src="img/star.jpg">
@@ -237,17 +254,8 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/dessert.jpg" width="210" height="150">
-              <p class="cartNrow">French Toast</p>
-              <p class="cartProw">$1.50</p>
-              <p class="cartDrow">Soak bread in eggs and add milk and sugar</p>
-              <img class="rating"src="img/star.jpg">
-              <a class="prodcomment" href="">23 Comments</a>
-            </div>
-
-<!--             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/dessert.jpg" width="210" height="150">
-              <p class="cartNrow">French Toast</p>
+              <img class="menu"src="img/dessert_eggball.jpg" width="210" height="150">
+              <p class="cartNrow">Egg Balls</p>
               <p class="cartProw">$1.50</p>
               <p class="cartDrow">Soak bread in eggs and add milk and sugar</p>
               <img class="rating"src="img/star.jpg">
@@ -255,12 +263,21 @@
             </div>
 
             <div class="col-1of3" id="menu">
-              <img class="menu"src="img/dessert.jpg" width="210" height="150">
-              <p class="cartNrow">French Toast</p>
+              <img class="menu"src="img/dessert_waffle.jpg" width="210" height="150">
+              <p class="cartNrow">Waffle</p>
               <p class="cartProw">$1.50</p>
-              <p class="cartDrow">Soak bread in eggs and add milk and sugar</p>
+              <p class="cartDrow">Combine with sugar, condensed milk and butter</p>
               <img class="rating"src="img/star.jpg">
-              <a class="prodcomment" href="">23 Comments</a> -->
+              <a class="prodcomment" href="">23 Comments</a>
+            </div>
+
+            <div class="col-1of3" id="menu">
+              <img class="menu"src="img/dessert_riceball.jpg" width="210" height="150">
+              <p class="cartNrow">Rice Balls</p>
+              <p class="cartProw">$1.50</p>
+              <p class="cartDrow">Combine with sugar, condensed milk and butter</p>
+              <img class="rating"src="img/star.jpg">
+              <a class="prodcomment" href="">23 Comments</a>
             </div>
 
   				</article>

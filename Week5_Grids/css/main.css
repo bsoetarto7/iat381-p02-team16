@@ -250,6 +250,8 @@ a.takeoutBut:hover, a.dineinBut:hover,a.signin:hover,a.register:hover{
 
 
 
+
+
 h1{
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 2rem;
@@ -400,13 +402,28 @@ p.homeProw{
 }
 
 p.date{
-	margin-top: 0;
+	display: inline-block;
+	margin: 0.8rem 0 0.6rem 0; 
 	text-align: left;
+	width:100px;
+	float: left;
+}
+p.date2{
+	display: inline-block;
+	margin: 0.8rem 75px 0 0 ;
+	float:right;
+	text-align: left;
+	float: right;
 }
 p.quantity{
 	display: inline-block;
 	float: right;
 	margin-right: 1rem;
+}
+
+p.imagehover{
+	display: block;
+	margin: 0;
 }
 
 /*a.side{
@@ -462,7 +479,7 @@ img.ratingdetailview{
 	padding-top: 0.8rem;
 }
 img.homebottom{
-	margin-top: 0.5rem;
+	margin-top: 0;
 	margin-bottom: 0; 
 }
 img.contact{
@@ -567,15 +584,60 @@ img.cart{
 }
 
 form{
+	display: inline-block;
+	width: 600px;
+	float: left;
 	margin-top: 0.5rem;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9rem;
 	color: #5b5744;
 }
+
+form#dinein{
+	width: 80%;
+}
+
+
 label{
 	display: inline-block;
 	clear:left
+}
+
+div.personalB{
+	display: inline-block;
+	margin-bottom: 2rem;	
+}
+
+input#personalB{
+	float:right;
+	margin-right:300px; 
+}
+input#dinein,select#dinein{
+	float:right;
+	/*margin-right:300px; */
+}
+
+select#dinein{
+	width: 123px;
+}
+
+
+select#personalB{
+	float:right;
+	margin-right:300px;
+	width: 123px; 
+}
+
+select#personalB2{
+	margin-left:116px;
+	width: 60px; 
+	display: inline-block;
+}
+
+select#personalB3{
+	width: 60px; 
+	display: inline-block;
 }
 
 input.login{

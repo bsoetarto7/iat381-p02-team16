@@ -16,7 +16,7 @@ $(document).ready(function(){
 		// }  		
 	});
 
-	$("#div1").hide();
+	$("#div1").show();
    	$("#div2").hide();
    	$("#signinpop").hide();
    	$("#registerpop").hide();
