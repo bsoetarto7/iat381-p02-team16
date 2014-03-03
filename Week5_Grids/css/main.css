@@ -602,6 +602,10 @@ img.cart{
 	float:right;
 }
 
+div#store.col-4of5{
+	margin-bottom: 4rem;
+}
+
 #div1,#div2{
 	display: inline-block;
 	float: left;
