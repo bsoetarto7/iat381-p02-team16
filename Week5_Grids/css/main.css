@@ -6,7 +6,7 @@ body{
 	/*padding: 1rem 4rem 2rem 4rem;*/
 }
 
-header{
+header, div#mobile{
 	padding: 1rem 4rem 0.1rem 4rem;
 	background-color: white;
 	width: 74.5%;
@@ -59,7 +59,36 @@ nav.header a:hover{
 	background-color: white;
 }*/
 
-a{
+.menutop {
+    font-weight: bold;
+    display: inline-block;
+    width: 16px; 
+    height: 3px;
+    padding: 2px 2px 0 0;
+    margin-top: 0;
+}
+
+
+.menutop .line {
+    background: #2cabbd;
+    box-shadow: 0 5px 0 0 #2cabbd, 0 -5px 0 0 #2cabbd;    
+    display: block;
+    height: 3px;
+    width: 16px;
+    overflow: visible;
+}
+
+.menutop:hover .line {
+    background: white;
+    box-shadow: 0 5px 0 0 white, 0 -5px 0 0 white;    
+}
+
+p.mobile{
+	margin-bottom: 0;
+	margin-top:0.5rem;
+}
+
+a{	
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -530,6 +559,11 @@ img.menu{
 	margin-bottom: 0;
 
 }
+
+img#newP.news{
+	width: 100%;
+}
+
 .menu2{
 	height:135px;
 	width: 200px;
@@ -701,7 +735,7 @@ select#personalB3{
 
 input.login{
 	display: block;
-	width: 50%;
+	width: 40%;
 	margin-bottom: 1rem;
 }
 select.detailview{

@@ -18,8 +18,8 @@ $(document).ready(function(){
 
 	$("#div1").show();
    	$("#div2").hide();
-   	$("#signinpop").hide();
-   	$("#registerpop").hide();
+   	$("#signinpop").show();
+   	$("#registerpop").show();
     		
 	$("#dineinBut").on('click', function() {
    		$("#div1").fadeIn();
@@ -40,26 +40,32 @@ $(document).ready(function(){
 	});
 
 /*----------------------------- Sidebar scroll to with an offset -----------------------------*/
-	$("#aboutusbutton").on('click', function() {
-		$("body").scrollTo( "#aboutus", 1000, {offset:({ top:-150, left:0 }) } );
+	$("#aboutusbutton").click( function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#aboutus", 1000, {offset:({ top:-135, left:0 }) } );
 	});
 
-	$("#historybutton").on('click', function() {
-		$("body").scrollTo( "#history", 1000, {offset: ({ top:-55, left:0 })} );
+	$("#historybutton").click( function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#history", 1000, {offset: ({ top:-135, left:0 })} );
 	});
 
-	$("#cartnoodlesbutton").on('click', function() {
-		$("body").scrollTo( "#cartnoodles", 1000, {offset:({ top:-250, left:0 }) } );
+	$("#cartnoodlesbutton").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#cartnoodles", 1000, {offset:({ top:-125, left:0 }) } );
 	});
 
-	$("#soupbutton").on('click', function() {
-		$("body").scrollTo( "#soup", 1000, {offset: ({ top:-150, left:0 })} );
+	$("#soupbutton").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#soup", 1000, {offset: ({ top:-125, left:0 })} );
 	});
-	$("#drinksbutton").on('click', function() {
-		$("body").scrollTo( "#drinks", 1000, {offset: ({ top:-150, left:0 })} );
+	$("#drinksbutton").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#drinks", 1000, {offset: ({ top:-125, left:0 })} );
 	});
-	$("#dessertbutton").on('click', function() {
-		$("body").scrollTo( "#dessert", 1000, {offset: ({ top:-150, left:0 })} );
+	$("#dessertbutton").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-125, left:0 })} );
 	});
 
 });

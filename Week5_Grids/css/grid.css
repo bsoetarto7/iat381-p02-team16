@@ -63,9 +63,14 @@
 	position: fixed;
 }
 
-.col-oneof5{
+.col-oneof5,.col-oneoffive{
 	width: 20%;
 }
+
+.col-twooffive{
+	width: 40%;
+}
+
 
 .col-3of5{
 	width: 60%;
@@ -177,11 +182,179 @@
 		padding-right:0.5rem;
 	}
 
-	header{
+	header,div#mobile{
 		padding-left: 0.5rem;
 		width:98%;
 	}
 }
 
+/*-------------------- phone size -------------------- */
+
+@media(max-width: 400px){
+	#content{
+		padding-top: 10rem;
+	}
+
+/*---------- Columns ----------*/
+	.col-1of2{
+		width: 100%;
+	}
+	.col-1of3{
+		width: 100%;
+	}
+	#menu.col-1of3{
+		width: 50%;
+	}
+	.col-oneof5{
+		width: 50%;
+	}
+	.col-6of24{
+		width: 225px;
+	}
+
+	.col-1of5{
+		width: 100%;
+		top:55px;
+		padding-top: 2rem;
+		background-color: white;
+	}
+	.col-4of5{
+		margin-left: 0;
+		width: 100%;
+		background-color: white;
+	}
+/*---------- End Of Columns ----------*/
+
+/*---------- ids ----------*/
+	#aboutus,#history,#news,#promotion,#events,#cartnoodles,#soup,
+	#drinks,#dessert{
+		padding-left: 0;		
+	}
+
+/*---------- End Of ids ----------*/
+
+
+/*---------- a tags ----------*/
+
+	a.side{
+		width: 43%;
+		margin-right: 0.5rem;
+		margin-bottom: 0;
+		font-size: 0.9rem;
+		padding: 0.5rem;
+	}
+
+	a#newsmobile.side{
+		width:26.5%;
+	}
+
+	a#cartnoodlesbutton.side,a#soupbutton.side,a#drinksbutton.side,
+	a#dessertbutton.side{
+		width: 18%;
+	}
+
+
+/*---------- End of a tags ----------*/
+
+/*---------- h tags ----------*/
+	h1.global,h1.topFive{
+		font-size: 1.5rem;
+	}
+
+	h2{
+		font-size: 0.8rem;
+	}
+
+	h3{
+		font-size: 1rem;
+	}
+/*---------- End of h tags ----------*/
+
+/*---------- Paragraphs ----------*/
+	p.homesideonpage,p.homeside{
+		width: 26%;
+		font-size: 0.5rem;
+	}
+
+	p.homesideonpage:hover,p.homeside:hover{
+		width:26%;
+	}
+
+	p.homepromo{
+		font-size: 0.75rem;
+		margin-bottom: 0;
+	}
+
+	p.aboutus,p.history,p.news,p.promotion,p.events{
+		font-size: 0.75rem;
+	}
+
+
+
+
+
+/*---------- End of Paragraphs ----------*/
+	nav#mobile a{
+		text-align: center;
+		font-size: 0.8rem;
+	}
+
+
+
+
+/*---------- Image ----------*/
+	img.logo{
+		margin-top: 1rem;
+	}
+	img.home{
+		width:368px;
+		height: 250px;
+		margin-top: 1rem;
+		float: left;
+	}
+
+	img.homeside{
+		height:20px;
+	}
+
+	img.homebottom{
+		width: 170px;
+	}
+
+	img.news{
+		width: 100%;
+	}
+
+	img.menu{
+		text-align: center;
+		display: block;
+		width:175px;
+	}
+
+/*	img#newP{
+		width: 100%;
+	}*/
+
+/*---------- End of Image ----------*/
+	header{
+		display: none;
+	}
+
+/*---------- div Tags ----------*/
+	div#mobile{
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+/*---------- End of div Tags ----------*/
+
+
+}	
+/*-------------------- end of phone size -------------------- */
+
+@media(min-width:401px){
+	div#mobile{
+		display: none;
+	}
+}
 
 
