@@ -11,9 +11,15 @@ header, div#mobile{
 	background-color: white;
 	width: 74.5%;
 	position: fixed;
+	z-index: 1000;
 }
 
 #content{
+
+	padding: 8rem 4rem 0 4rem;
+	/*background-color: #fefcf0;*/
+}
+#content3{
 
 	padding: 8rem 4rem 0 4rem;
 	/*background-color: #fefcf0;*/
@@ -339,6 +345,15 @@ h2{
 	color: #2cabbd;
 }
 
+h2.mycartsignin{
+	margin-top: 1rem;
+	font-size: 0.95rem;
+}
+
+h2.mycartsignin2{
+	font-size: 0.95rem;
+	font-weight:400;
+}
 h3{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
@@ -674,6 +689,10 @@ div#store.col-4of5{
 .rowGlobalsideimage{
 	display: inline-block;
 	padding: 0 1.1rem;
+}
+
+#signinsmall{
+	margin-left: 5.8rem;
 }
 
 form{

@@ -61,6 +61,7 @@
 .col-1of5{
 	width: 20%;
 	position: fixed;
+	z-index: 999;
 }
 
 .col-oneof5,.col-oneoffive{
@@ -177,7 +178,7 @@
 
 	
 
-	#content,#content2{
+	#content,#content2,#content3{
 		padding-left: 0.5rem;
 		padding-right:0.5rem;
 	}
@@ -192,7 +193,10 @@
 
 @media(max-width: 400px){
 	#content{
-		padding-top: 10rem;
+		padding-top: 7rem;
+	}
+	#content3{
+		padding-top: 5rem;
 	}
 
 /*---------- Columns ----------*/
@@ -214,14 +218,22 @@
 
 	.col-1of5{
 		width: 100%;
-		top:55px;
+		top:30px;
 		padding-top: 2rem;
+		padding-bottom: 1rem;
 		background-color: white;
 	}
 	.col-4of5{
 		margin-left: 0;
 		width: 100%;
 		background-color: white;
+	}
+
+	.col-oneofseven{
+		width:14.28%;
+	}
+	.col-twoofseven{
+		width:28.57%;
 	}
 /*---------- End Of Columns ----------*/
 
@@ -273,7 +285,7 @@
 /*---------- Paragraphs ----------*/
 	p.homesideonpage,p.homeside{
 		width: 26%;
-		font-size: 0.5rem;
+		font-size: 0.6rem;
 	}
 
 	p.homesideonpage:hover,p.homeside:hover{
@@ -304,7 +316,8 @@
 
 /*---------- Image ----------*/
 	img.logo{
-		margin-top: 1rem;
+		margin-top: 0.6rem;
+/*		width: 60px;*/
 	}
 	img.home{
 		width:368px;
@@ -314,7 +327,7 @@
 	}
 
 	img.homeside{
-		height:20px;
+		display: none;
 	}
 
 	img.homebottom{
