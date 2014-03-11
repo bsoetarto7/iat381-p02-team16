@@ -10,6 +10,8 @@ $(document).ready(function(){
 										.attr("href","choosesoup.html");
 			$("a#selectside4.sideNone").attr("class","sideonpage")
 										.attr("href","donenood.html");
+			$("a#selectside5.sideNone").attr("class","sideonpage")
+										.attr("href","donenood.html");
 		}
 		// if(($(this).attr("id"))==="selected"){
 		// 	$(this).attr("id","unselected");
@@ -39,6 +41,19 @@ $(document).ready(function(){
    		$("#registerpop").fadeIn();
 	});
 
+	$("div#mobile2").hide();
+	$("#tablet2").hide();
+
+	$(".menutop").click( function(){
+		$("#mobile2").slideToggle(1000);
+	})
+	$(".menutop1").click( function(){
+		$("#tablet2").slideToggle(1000);
+	})
+
+	
+
+
 /*----------------------------- Sidebar scroll to with an offset -----------------------------*/
 	$("#aboutusbutton").click( function(clickEvent) {
 		clickEvent.preventDefault();
@@ -66,6 +81,19 @@ $(document).ready(function(){
 	$("#dessertbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
 		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-125, left:0 })} );
+	});
+
+	$("#newsmobileN").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#news", 1000, {offset: ({ top:-125, left:0 })} );
+	});
+	$("#newsmobileP").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#promotion", 1000, {offset: ({ top:-125, left:0 })} );
+	});
+	$("#newsmobileE").on('click', function(clickEvent) {
+		clickEvent.preventDefault();
+		$(window).scrollTo( "#events", 1000, {offset: ({ top:-125, left:0 })} );
 	});
 
 });

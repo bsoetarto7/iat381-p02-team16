@@ -12,6 +12,55 @@
   	</head>
 
   	<body>
+      <div id="tablet" class="grid">
+          <div class="col-1of4">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="tablet"class="header">
+          <div class="col-1of4">
+            <p><a href="menu.html">FOOD MENU</a></p>
+          </div>
+          <div class="col-1of4">
+            <p><a href="choosenoodle.html">CREATE NOODLE </a></p>
+          </div>
+          <div class="col-1of4">
+            <p class="mobile"><a class="menutop1"><span class="line"></span></a></p>      
+          </div>
+        </nav>   
+      </div>
+      <div id="tablet2" class="grid">
+
+        <nav id ="tablet2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
+
+      <div id="mobile" class="grid">
+          <div class="col-twoofseven">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="mobile"class="header">
+            <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
+        </nav>   
+      </div>
+      <div id="mobile2" class="grid">
+
+        <nav id ="mobile2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="menu.html">MENU</a></p>
+            <p><a href="choosenoodle.html">CREATE NOODLE</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
   		<header class="grid">
   			<div class="col-6of24">
   				<a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
@@ -44,40 +93,47 @@
   			</nav>
   		</header>
 
-  		<article id="content">
+  		<article id="content4">
   			<div class="grid">
 	  			<div class="col-1of5">
-		  			<a class="side" href="choosenoodle.html">Step 1:<br>Choose Noodle<br>(Rice Noodle - $2)</a>
-		      		<a class="side" href="choosetoppings.html">Step 2:<br>Choose Toppings<br>(Pig's Blood - $1.50)</a>
-		      		<a class="side" href="choosesoup.html">Step 3:<br>Choose Soup<br>(Chicken Soup - $2)</a>
-		      		<a class="sideonpage" href="donenood.html">Done & Review</a>
+
+	  				<a id="mobiledonebutton1" class="side" href="choosenoodle.html">Step 1:<br>Rice Noodle<br>$2.00</a>
+		  			<a id="mobiledonebutton2" class="side" href="choosenoodle.html">Step 1:<br>Choose Noodle<br>(Rice Noodle - $2)</a>
+		  			<a id="mobiledonebutton1" class="side" href="choosenoodle.html">Step 2:<br>Pig's Blood<br>$1.50</a>
+		      		<a id="mobiledonebutton2" class="side" href="choosetoppings.html">Step 2:<br>Choose Toppings<br>(Pig's Blood - $1.50)</a>
+
+		      		<a id="mobiledonebutton1" class="side" href="choosesoup.html">Step 3:<br>Chicken Soup<br>$2</a>
+		      		<a id="mobiledonebutton2"class="side" href="choosesoup.html">Step 3:<br>Choose Soup<br>(Chicken Soup - $2)</a>
+
+		      		<a id="mobiledonebutton1" class="sideonpage" href="">Done <br>&<br> Review</a>
+		      		<a id="mobiledonebutton2" class="sideonpage" href="donenood.html">Done & Review</a>
 	  			</div>
 
 	  			<div class="col-4of5">
 	  				<article id="paddingleft">
 		  				<h1 class="global">MY OWN CART NOODLE</h1>
 		  				<div class="col-1of2">
-		  					<img class="menu"src="img/sample.jpg" width="280" height="300">
+		  					<img class="donenood"src="img/sample.jpg" width="280" height="300">
 		  				</div>
 
 		  				<div class="col-1of2">
 		  					<h2>ORDER DETAIL</h2>
-		  					<div class="col-1of3">
-		  						<h3>Noodle</h3>
-		  						<h3>Toppings</h3>
-		  						<h3>Soup</h3>
+		  					<div id="donenood" class="col-1of3">
+		  						<h3 id="donenood">Noodle</h3>
+		  						<h3 id="donenood">Toppings</h3>
+		  						<h3 id="donenood">Soup</h3>
 		  					</div>
-		  					<div class="col-1of3">
-		  						<h3>Rice Noodle</h3>
-		  						<h3>Pig's Blood</h3>
-		  						<h3>Chicken Soup</h3>
-		  						<h2>TOTAL</h2>
+		  					<div id="donenood" class="col-1of3">
+		  						<h3 id="donenood">Rice Noodle</h3>
+		  						<h3 id="donenood">Pig's Blood</h3>
+		  						<h3 id="donenood">Chicken</h3>
+		  						<h2 id="donenood">TOTAL</h2>
 		  					</div>
-		  					<div class="col-1of3">
-		  						<h3>$2.00</h3>
-		  						<h3>$1.50</h3>
-		  						<h3>$2.00</h3>
-		  						<h2>$5.50</h2>
+		  					<div id="donenood" class="col-1of3">
+		  						<h3 id="donenood">$2.00</h3>
+		  						<h3 id="donenood">$1.50</h3>
+		  						<h3 id="donenood">$2.00</h3>
+		  						<h2 id="donenood">$5.50</h2>
 		  					</div>
 
 
@@ -86,8 +142,14 @@
 	  			</div>
 	  			
   			</div>
-  			<a class="doneNoodBut" href="cart.html">ADD TO CART</a>
-  			<a class="doneNoodBut" href="choosenoodle.html">CREATE NEW</a>
+
+  			<a id="mobiledonebutton1"class="doneNoodBut" href="choosenoodle.html">CREATE NEW</a>
+  			<a id="mobiledonebutton1" class="doneNoodBut" href="cart.html">ADD TO CART</a>
+
+  			<a id="mobiledonebutton2" class="doneNoodBut" href="cart.html">ADD TO CART</a>
+  			<a id="mobiledonebutton2" class="doneNoodBut" href="choosenoodle.html">CREATE NEW</a>
   		</article>
+  		<script src="js/jquery.js"></script>
+      <script src="js/ui.js"></script>
   	</body>
 </html>

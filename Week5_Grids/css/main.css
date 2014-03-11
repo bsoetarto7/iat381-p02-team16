@@ -13,6 +13,50 @@ header, div#mobile{
 	position: fixed;
 	z-index: 1000;
 }
+div#tablet{
+	padding: 1rem 0 0.1rem 1rem;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+div#mobile2{
+	padding: 1rem 1rem 0.1rem 1rem;
+	top:4rem;
+	background-color: #2cabbd;
+	text-align: center;
+	width: 92%;
+	position: fixed;
+	z-index: 1000;
+}
+div#tablet2{
+	float: right;
+	padding: 1rem 1rem 0.1rem 1rem;
+	top:4rem;
+	background-color: #2cabbd;
+	text-align: center;
+	left: 45.5%;
+	width: 50%;
+	position: fixed;
+	z-index: 1000;
+}
+
+nav#mobile{
+	padding: 0.5rem;
+	float:right;
+}
+
+nav#mobile2 a,nav#tablet2 a{
+	color: white;
+	display: block;
+	padding: 0.5rem 0.8rem;
+	margin:0 3rem;
+}
+
+nav#mobile2 a:active,nav#mobile2 a:hover,nav#tablet2 a:active,nav#tablet2 a:hover{
+	background-color: white;
+	color:#2cabbd;
+}
 
 #content{
 
@@ -20,6 +64,12 @@ header, div#mobile{
 	/*background-color: #fefcf0;*/
 }
 #content3{
+
+	padding: 8rem 4rem 0 4rem;
+	/*background-color: #fefcf0;*/
+}
+
+#content4{
 
 	padding: 8rem 4rem 0 4rem;
 	/*background-color: #fefcf0;*/
@@ -65,7 +115,7 @@ nav.header a:hover{
 	background-color: white;
 }*/
 
-.menutop {
+.menutop,.menutop1 {
     font-weight: bold;
     display: inline-block;
     width: 16px; 
@@ -75,7 +125,7 @@ nav.header a:hover{
 }
 
 
-.menutop .line {
+.menutop .line,.menutop1 .line {
     background: #2cabbd;
     box-shadow: 0 5px 0 0 #2cabbd, 0 -5px 0 0 #2cabbd;    
     display: block;
@@ -84,7 +134,7 @@ nav.header a:hover{
     overflow: visible;
 }
 
-.menutop:hover .line {
+.menutop:hover .line,.menutop1:hover .line {
     background: white;
     box-shadow: 0 5px 0 0 white, 0 -5px 0 0 white;    
 }
@@ -328,6 +378,11 @@ h1.globalDetailview2{
 }
 
 h1.cartpage{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+h1.contact{
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 0.5rem;

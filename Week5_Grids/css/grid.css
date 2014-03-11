@@ -93,42 +93,67 @@
 	box-sizing:border-box;
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1167px){
 	body{
-	margin: 0 2rem 0 2rem;
-	/*padding: 1rem 4rem 2rem 4rem;*/
+		margin-left: 3rem;
+		margin-right: 3rem;
 	}
-/*	img.menu{
+	header{
 		width: 80%;
 	}
-	img#unselected.menu{
-		width: 80%;
-		height:80%;
-	}*/
+	h3#donenood{
+		font-size: 1rem;
+	}
+	h3.cart{
+		font-size: 0.9rem;
+	}
+
+	img.donenood{
+		width:70%;
+		height:70%;
+	}
+
 }
 
-/*Tablet size*/
-@media(max-width: 900px){
+
+@media(max-width: 1100px){
 	body{
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	header{
+
+		width: 84%;
 	}
 
-	.col-1of5{
-		width:28%;
+	h3#donenood{
+		font-size: 1rem;
+	}
+	h3.cart{
+		font-size: 0.9rem;
 	}
 
-	#aboutus,#history,#news,#events,#promotion{
-		width:90%;
+	nav.header a{
+		font-size: 0.8rem;
+	}
+
+	a.prodcomment{
+		margin-top: 0;
 	}
 
 	h1.global,h1.topFive{
 		font-size: 1.7rem;
 	}
 
-	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
+	p.aboutus,p.history,p.news,
 	p.promotion,p.events{
-		font-size: 0.85rem;
+		font-size: 0.8rem;
+	}
+	p.homeNrow{
+		font-size: 0.75rem;
+	}
+	p.homepromo{
+		font-size: 0.75rem;
 	}
 
 	p.homeside,p.homesideonpage{
@@ -151,6 +176,93 @@
 
 
 
+	img.logo{
+		width:90%;
+	}
+	img.menu{
+		width:90%;
+	}
+	img#unselected.menu{
+		width: 90%;
+		height: 90%;
+	}
+
+	img#selected.menu{
+		width:80%;
+		height: 80%;
+	}
+
+	img.about{
+		width:100%;
+	}
+	img.homebottom{
+		width:90%;
+		height:142px;
+	}
+	img.rating{
+		width:40%;
+	}
+	img.donenood{
+		width:70%;
+		height:70%;
+	}
+
+}
+
+
+/*Tablet size*/
+@media(max-width: 900px){
+	body{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	header{
+		display: none;
+	}
+
+	.col-1of5{
+		width:28%;
+	}
+
+	#aboutus,#history,#news,#events,#promotion{
+		width:90%;
+	}
+
+	h1.global,h1.topFive{
+		font-size: 1.7rem;
+	}
+
+	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
+	p.promotion,p.events{
+		font-size: 0.8rem;
+	}
+
+	p.homeside,p.homesideonpage{
+		font-size: 0.8rem;
+		padding: 0.5rem;
+	}
+
+	p.cartNrow{
+		font-size:0.85rem;
+	}
+
+	p.cartProw{
+		font-size: 0.85rem;
+		/*margin-right: 0;*/
+	}
+	p.cartDrow{
+		font-size: 0.75rem;
+		width: 90%;
+		/*margin-right: 0;*/
+	}
+
+	p.homeside:hover{
+		font-size: 0.8rem;
+		padding: 0.5rem;
+	}
+
+
+
 	img.about{
 		width:100%;
 	}
@@ -158,7 +270,8 @@
 		width:90%;
 	}
 	img.logo{
-		width:100%;
+		padding-top: 0.6rem;
+		width:112px;
 	}
 
 
@@ -174,39 +287,113 @@
 		width:85%;
 		height: 85%;
 	}
+	img.homeside{
+		margin-left: 10%;
+		width:80%;
+	}
 
 
 	
 
-	#content,#content2,#content3{
+	#content,#content2,#content3,#content4{
 		padding-left: 0.5rem;
 		padding-right:0.5rem;
 	}
 
-	header,div#mobile{
-		padding-left: 0.5rem;
-		width:98%;
+	
+}
+
+/*-------------------- 700px Size -------------------- */
+@media(max-width: 700px){
+/*---------- Columns ----------*/
+	.col-1of3{
+		width: 50%;
+	}
+/*---------- End Of Columns ----------*/
+
+/*---------- ids ----------*/
+	#donenood.col-1of3{
+		width: 33%;
+	}
+	#homeside.col-1of3{
+		display: block;
+		width: 100%;
+	}
+/*---------- End Of ids ----------*/
+
+/*---------- Image ----------*/
+	img.homebottom{
+		width:90%;
+		height: 113px;
+	}
+/*---------- End Of Image ----------*/
+
+/*---------- h tags ----------*/
+	h3#donenood{
+		margin-right: 0.5rem;
+		font-size: 0.7rem;
+	}
+/*---------- End of h tags ----------*/
+
+/*---------- Paragraphs ----------*/
+	p.homesideonpage,p.homeside{
+		width: 30%;
+		font-size: 0.6rem;
+	}
+
+	p.homesideonpage:hover,p.homeside:hover{
+		width:30%;
+		font-size: 0.6rem;
+	}
+
+	p.homeNrow,p.homeProw{
+		font-size: 0.6rem;
+	}
+
+	p.homeProw{
+		margin-right: 0.8rem;
+	}
+/*---------- End Of Paragraphs ----------*/
+
+	input.login{
+		width: 7rem;
 	}
 }
+/*-------------------- End Of 700px Size -------------------- */
+
 
 /*-------------------- phone size -------------------- */
 
 @media(max-width: 400px){
 	#content{
-		padding-top: 7rem;
+		padding-top: 8rem;
 	}
 	#content3{
 		padding-top: 5rem;
 	}
+	#content4{
+		padding-top: 12rem;
+	}
+
 
 /*---------- Columns ----------*/
 	.col-1of2{
 		width: 100%;
+		margin-bottom: 3rem;
+	}
+	#secondstore.col-1of2{
+		margin-top: 0;
 	}
 	.col-1of3{
 		width: 100%;
 	}
+	#donenood.col-1of3{
+		width: 33%;
+	}
 	#menu.col-1of3{
+		width: 50%;
+	}
+	#createnood.col-1of3{
 		width: 50%;
 	}
 	.col-oneof5{
@@ -218,7 +405,7 @@
 
 	.col-1of5{
 		width: 100%;
-		top:30px;
+		top:45px;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
 		background-color: white;
@@ -226,6 +413,11 @@
 	.col-4of5{
 		margin-left: 0;
 		width: 100%;
+		background-color: white;
+	}
+	#carttotal.col-4of5{
+		margin-left: 1rem;
+		width:89%;
 		background-color: white;
 	}
 
@@ -243,6 +435,20 @@
 		padding-left: 0;		
 	}
 
+	#selected{
+		height:135px;
+		width: 200px;
+		padding: 0.2rem;
+		background-color: #2dacbe;
+	}
+
+	#paddingleft{
+		padding-left: 0.5rem;
+	}
+	#cartlines,#paddingleftNext{
+		margin-left:0;
+	}
+
 /*---------- End Of ids ----------*/
 
 
@@ -256,13 +462,43 @@
 		padding: 0.5rem;
 	}
 
-	a#newsmobile.side{
+	a#newsmobileN.side,a#newsmobileP.side,a#newsmobileE.side{
 		width:26.5%;
 	}
 
 	a#cartnoodlesbutton.side,a#soupbutton.side,a#drinksbutton.side,
 	a#dessertbutton.side{
 		width: 18%;
+	}
+
+	a.sideonpage,a.sideNone{
+		width:22%;
+		margin-right: 0.5rem;
+		font-size: 0.9rem;
+		height:50px;
+	}
+	a#mobiledonebutton2,a#selectside5{
+		display: none;
+	}
+
+	a#mobiledonebutton1.side{
+		width: 22%;
+		margin-right: 0.5rem;
+		margin-bottom: 0;
+		font-size: 0.9rem;
+		padding: 1rem 0;
+		height:50px;
+	}
+
+	a.prodcomment{
+		font-size: 0.3rem;
+	}
+
+	a#mobiledonebutton1.doneNoodBut{
+		float:none;
+		display: inline-block;
+		margin-right: 1rem;
+		width: 40%;
 	}
 
 
@@ -272,24 +508,43 @@
 	h1.global,h1.topFive{
 		font-size: 1.5rem;
 	}
+	h1.contact, h1.cartpage{
+		text-align: left;
+		margin-left: 0.5rem;
+	}
+
+	h3.cartquantity,h3.cartprice{
+		margin-left: 0;
+	}
 
 	h2{
 		font-size: 0.8rem;
 	}
 
+	h2#donenood{
+		font-size: 1rem;
+	}
+
 	h3{
 		font-size: 1rem;
+	}
+	h3#donenood{
+		font-size: 0.85rem;
+	}
+	h3.cart{
+		margin-left: 0;
+		font-size: 0.9rem;
 	}
 /*---------- End of h tags ----------*/
 
 /*---------- Paragraphs ----------*/
 	p.homesideonpage,p.homeside{
-		width: 26%;
+		width: 24%;
 		font-size: 0.6rem;
 	}
 
 	p.homesideonpage:hover,p.homeside:hover{
-		width:26%;
+		width:24%;
 	}
 
 	p.homepromo{
@@ -300,16 +555,27 @@
 	p.aboutus,p.history,p.news,p.promotion,p.events{
 		font-size: 0.75rem;
 	}
+	p.contact{
+		width: 100%;
+	}
+	p.contactH{
+		text-align: left;
+		font-weight: bold;
+		width: 100%;
+	}
 
 
 
 
 
 /*---------- End of Paragraphs ----------*/
-	nav#mobile a{
-		text-align: center;
-		font-size: 0.8rem;
+	div#mobile{
+		padding-left: 0.7rem;
+		width:98%;
+		padding-top: 0;
+		margin-bottom: 0;
 	}
+
 
 
 
@@ -344,6 +610,23 @@
 		width:175px;
 	}
 
+	img#unselected.menu{
+		text-align: center;
+		display: block;
+		width:170px;
+	}
+	img.rating{
+		width:90px;
+	}
+
+	img.donenood{
+		width: 280px;
+	}
+
+	img.cart{
+		display: none;
+	}
+
 /*	img#newP{
 		width: 100%;
 	}*/
@@ -354,20 +637,35 @@
 	}
 
 /*---------- div Tags ----------*/
-	div#mobile{
-		padding-top: 0;
-		margin-bottom: 0;
+	#tablet{
+		display: none;
 	}
 /*---------- End of div Tags ----------*/
+
+	input.login{
+		width: 13rem;
+	}
 
 
 }	
 /*-------------------- end of phone size -------------------- */
 
-@media(min-width:401px){
+@media(min-width:901px){
+	div#tablet{
+		display: none;
+	}
+	
+
+}
+@media(min-width: 401px){
 	div#mobile{
 		display: none;
 	}
+	a#mobiledonebutton1{
+		display: none;
+	}
+	a#selectside4{
+		display: none;
+	}
 }
-
 
