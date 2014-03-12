@@ -2,55 +2,68 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body{
-	margin: 0 6.7% 0 6.7%;
-	/*padding: 1rem 4rem 2rem 4rem;*/
+	margin:0;
 }
 
 header, div#mobile{
-	padding: 1rem 4rem 0.1rem 4rem;
+	width: 100%;
+	top: 0;
 	background-color: white;
-	width: 74.5%;
+	/*width: 74.5%;*/
 	position: fixed;
 	z-index: 1000;
 }
+nav#mobile{
+	float:right;
+}
+div#mobile2{
+	top:4rem;
+	background-color: #2cabbd;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
 div#tablet{
-	padding: 1rem 0 0.1rem 1rem;
+	margin: 0;
+	padding: 0.6rem 0 0.1rem 1rem;
 	background-color: white;
 	width: 100%;
 	position: fixed;
 	z-index: 1000;
 }
-div#mobile2{
-	padding: 1rem 1rem 0.1rem 1rem;
-	top:4rem;
-	background-color: #2cabbd;
-	text-align: center;
-	width: 92%;
-	position: fixed;
-	z-index: 1000;
-}
+
 div#tablet2{
 	float: right;
-	padding: 1rem 1rem 0.1rem 1rem;
+	padding: 1rem 0 0.1rem 0;
 	top:4rem;
 	background-color: #2cabbd;
 	text-align: center;
-	left: 45.5%;
+	top:80px;
+	left: 50%;
 	width: 50%;
 	position: fixed;
 	z-index: 1000;
 }
-
-nav#mobile{
-	padding: 0.5rem;
-	float:right;
+nav#tablet a,nav#mobile a{
+	margin: 0;
+	text-decoration: none;
+	color:#2cabbd;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1rem 0.8rem 1rem 0.8rem;
+}
+nav#tablet a:hover,nav#mobile a:hover{
+	background-color: #2cabbd;
+	color: white;
 }
 
 nav#mobile2 a,nav#tablet2 a{
 	color: white;
+	text-decoration: none;
 	display: block;
 	padding: 0.5rem 0.8rem;
-	margin:0 3rem;
 }
 
 nav#mobile2 a:active,nav#mobile2 a:hover,nav#tablet2 a:active,nav#tablet2 a:hover{
@@ -58,34 +71,43 @@ nav#mobile2 a:active,nav#mobile2 a:hover,nav#tablet2 a:active,nav#tablet2 a:hove
 	color:#2cabbd;
 }
 
+/*with side nav html*/
 #content{
-
-	padding: 8rem 4rem 0 4rem;
+	max-width: 920px;
+	padding: 7rem 0 0 0;
+	margin: 0px auto;
 	/*background-color: #fefcf0;*/
 }
+
+/*index.html*/
 #content3{
-
-	padding: 8rem 4rem 0 4rem;
+	max-width: 920px;
+	padding: 7rem 0 0 0;
+	margin: 0px auto;
 	/*background-color: #fefcf0;*/
 }
 
+/*create noodle html*/
 #content4{
-
-	padding: 8rem 4rem 0 4rem;
-	/*background-color: #fefcf0;*/
+	max-width: 920px;
+	padding: 7rem 0 0 0;
+	margin: 0px auto;
 }
 
+/*header*/
 #content2{
 	/*display: inline-block;*/
-	padding: 1rem 4rem 2rem 4rem;
+	max-width: 920px;
+	padding: 1rem 0 0 0;
+	margin: 0px auto;
 }
 
 nav.header{
-	margin-top: 0.4rem;
+	max-width: 920px;
+	margin: 1rem auto;
 }
 
 nav.header a{
-	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1rem;
 }
 
@@ -94,9 +116,11 @@ nav.header a.onpage{
 	background-color: #2cabbd;
 	color: white;
 	font-weight: bold;
+	text-decoration: none;
+	padding: 1rem 0.8rem;
 }
 
-nav.header a{
+nav.header a#topnav{
 	color:#2cabbd;
 	text-decoration: none;
 	padding: 1rem 0.8rem;
@@ -104,16 +128,11 @@ nav.header a{
 	font-weight: bold;
 }
 
-nav.header a:hover{
+nav.header a#topnav:hover{
 	background-color: #2cabbd;
 	color: white;
 }
 
-/*nav.header a:focus, nav.header a:active{
-	color:#f4c367;
-	font-weight: bold;
-	background-color: white;
-}*/
 
 .menutop,.menutop1 {
     font-weight: bold;
@@ -127,7 +146,7 @@ nav.header a:hover{
 
 .menutop .line,.menutop1 .line {
     background: #2cabbd;
-    box-shadow: 0 5px 0 0 #2cabbd, 0 -5px 0 0 #2cabbd;    
+    box-shadow: 0 -10px 0 0 #2cabbd, 0 -5px 0 0 #2cabbd;    
     display: block;
     height: 3px;
     width: 16px;
@@ -136,7 +155,7 @@ nav.header a:hover{
 
 .menutop:hover .line,.menutop1:hover .line {
     background: white;
-    box-shadow: 0 5px 0 0 white, 0 -5px 0 0 white;    
+    box-shadow: 0 -10px 0 0 white, 0 -5px 0 0 white;    
 }
 
 p.mobile{
@@ -157,7 +176,7 @@ a.side{
 	text-decoration: none;
 	color: #f3c266;
 	padding: 1rem 0;
-	width: 85%;
+	width: 219px;
 	margin-bottom: 1rem;
 	border-width: 1px;
 	float: left;
@@ -169,7 +188,7 @@ a.sideNone{
 	text-decoration: none;
 	color: #bbbdc0;
 	padding: 1rem 0;
-	width: 85%;
+	width: 219px;
 	margin-bottom: 1rem;
 	border-width: 1px;
 	float: left;
@@ -183,7 +202,7 @@ a.sideonpage{
 	background-color: #f3c266;
 	color: white;
 	padding: 1rem 0;
-	width: 85%;
+	width: 219px;
 	margin-bottom: 1rem;
 	border-width: 1px;
 	float: left;
@@ -225,17 +244,20 @@ a.cart:hover{
 	color: black;
 }
 
-a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut{
+a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut,a.doneNoodButC{
 	float:right;
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5rem;
-	margin-right: 3rem;
+	/*margin-right: 3rem;*/
 	background-color:  #ee5260 ;
 	/*border-radius: 10px;*/
 	width:130px;
 	color: white;
+}
+a.cartBut{
+	margin-right: 1rem;
 }
 a.cartBut2{
 	float:right;
@@ -250,12 +272,15 @@ a.cartBut2{
 	margin-right: 1.3rem;
 }
 
-a.doneNoodBut,a.createN{
+a.createN{
 	margin-top: 2rem;
 }
+a.doneNoodButC{
+	margin-right: 1rem;
+}
 
-a.cartBut:hover,a.persoanlbillBut:hover,a.conBut:hover,
-a.doneNoodBut:hover{
+a.cartBut2:hover,a.cartBut:hover,a.persoanlbillBut:hover,a.conBut:hover,
+a.doneNoodBut:hover,a.doneNoodButC:hover{
 	color: black;
 }
 
@@ -277,7 +302,7 @@ a.about:hover{
 }
 
 
-a.buynowBut,a.addtocart{
+a.addtocart{
 	float:left;
 	display: inline-block;
 	text-decoration: none;
@@ -301,6 +326,18 @@ a.detailviewaddtocart{
 	width:130px;
 	color: white;
 	margin: 1rem 0 0 0 ;
+}
+a.buynowBut{
+	float:right;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+	margin-top: 2rem;
+	background-color:  #ee5260 ;
+	width:130px;
+	color: white;
+	margin: 2rem 3.8rem 0 0 ;
 }
 
 a.prodcomment{
@@ -346,10 +383,6 @@ a.takeoutBut:hover, a.dineinBut:hover,a.signin:hover,a.register:hover{
 
 
 
-
-
-
-
 h1{
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 2rem;
@@ -377,16 +410,13 @@ h1.globalDetailview2{
 	width: 100%;
 }
 
-h1.cartpage{
+h1.cartpage,h1.contact{
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 0.5rem;
+	width:219px;
 }
-h1.contact{
-	text-align: center;
-	margin-top: 0;
-	margin-bottom: 0.5rem;
-}
+
 h1.topFive{
 	text-align: left;
 	margin-bottom: 1rem;
@@ -401,13 +431,30 @@ h2{
 }
 
 h2.mycartsignin{
+	color:#5b5744;
 	margin-top: 1rem;
 	font-size: 0.95rem;
 }
 
 h2.mycartsignin2{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin: 0.4rem;
+	color:#5b5744;
 	font-size: 0.95rem;
 	font-weight:400;
+}
+h2.mycartsignin3{
+	margin: 0.4rem;
+	color:#5b5744;
+	float:right;
+	font-size: 0.95rem;
+	font-weight:400;
+}
+
+h2#donenood.price{
+	text-align: right;
 }
 h3{
 	font-family: 'Open Sans', sans-serif;
@@ -421,7 +468,7 @@ h3.cart{
 	text-align: right;
 	font-size: 1rem;
 	/*text-align: right;*/
-	margin-left: 4.5rem;
+	/*margin-left: 4.5rem;*/
 	font-weight: none;
 	color: #5b5744;
 }
@@ -438,7 +485,13 @@ h3#cartitemname{
 	font-weight: bold;
 	font-size: 1rem;
 }
-
+h3#donenood{
+	font-size: 1rem;
+	width:100%;
+}
+h3#donenood.price{
+	text-align: right;
+}
 h3.cartprice{
 	text-align: right;
 	margin-right: 0.3rem;
@@ -466,6 +519,10 @@ p{
 p.homepromo, p.aboutus,p.history,p.news,p.promotion,p.events,
 p.contact,p.cart,p.pi,p.global{
 	text-align: left;
+}
+p.contactH{
+	text-align: left;
+	font-weight: bold;
 }
 p.homepromo{
 	padding-right: 1rem;
@@ -627,6 +684,8 @@ img.contact{
 
 img.menu{
 	margin-bottom: 0;
+	width:204px;
+	height:150px;
 
 }
 
@@ -726,15 +785,18 @@ div#store.col-4of5{
 	margin-bottom: 2.5rem;
 }
 #selected{
-	height:135px;
-	width: 200px;
+	height:137.2px;
+	width: 198px;
 	padding: 0.4rem;
 	background-color: #2dacbe;
 }
 #unselected{
 	height:150px;
-	width: 210px;
+	width: 204px;
 	padding: 0;
+}
+#donenoodDetail{
+	margin-top: 5rem;
 }
 
 .rowGlobal{
@@ -822,6 +884,12 @@ select.detailview{
 textarea{
 	width: 100%;
 	height:100px;
+}
+
+input.promotioncode{
+	text-align: right;
+	float: right;
+	margin: 16px 0 16px 0;
 }
 
 

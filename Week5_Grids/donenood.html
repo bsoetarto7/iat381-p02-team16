@@ -61,19 +61,20 @@
             <p><a href="login.html">LOG IN</a></p>
         </nav>   
       </div>
+
   		<header class="grid">
-  			<div class="col-6of24">
-  				<a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
-  			</div>
   			<nav class="header">
+          <div class="col-6of24">
+            <a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
+          </div>
 	  			<div class="col-2of24">
-	  				<p><a href="about.html">ABOUT</a></p>
+	  				<p><a id="topnav" href="about.html">ABOUT</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="news.html">NEWS</a></p>
+	  				<p><a id="topnav" href="news.html">NEWS</a></p>
 	  			</div>
 	  			<div  class="col-2of24">
-	  				<p><a href="menu.html">MENU</a></p>
+	  				<p><a id="topnav" href="menu.html">MENU</a></p>
 	  			</div>
 	  			<div class="col-4of24">
 	  				<p><a class="onpage" href="choosenoodle.html">CREATE NOODLES</a></p>
@@ -82,13 +83,13 @@
 	  				<p></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="contact.html">CONTACT</a></p>
+	  				<p><a id="topnav" href="contact.html">CONTACT</a></p>
 	  			</div>
 	  			<div class="col-3of24">
-	  				<p><a href="cart.html">MY CART</a></p>
+	  				<p><a id="topnav" href="cart.html">MY CART</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="login.html">LOG IN</a></p>
+	  				<p><a id="topnav" href="login.html">LOG IN</a></p>
 	  			</div>
   			</nav>
   		</header>
@@ -116,7 +117,7 @@
 		  					<img class="donenood"src="img/sample.jpg" width="280" height="300">
 		  				</div>
 
-		  				<div class="col-1of2">
+		  				<div id="donenoodDetail" class="col-1of2">
 		  					<h2>ORDER DETAIL</h2>
 		  					<div id="donenood" class="col-1of3">
 		  						<h3 id="donenood">Noodle</h3>
@@ -130,10 +131,10 @@
 		  						<h2 id="donenood">TOTAL</h2>
 		  					</div>
 		  					<div id="donenood" class="col-1of3">
-		  						<h3 id="donenood">$2.00</h3>
-		  						<h3 id="donenood">$1.50</h3>
-		  						<h3 id="donenood">$2.00</h3>
-		  						<h2 id="donenood">$5.50</h2>
+		  						<h3 id="donenood" class="price">$2.00</h3>
+		  						<h3 id="donenood" class="price">$1.50</h3>
+		  						<h3 id="donenood" class="price">$2.00</h3>
+		  						<h2 id="donenood" class="price">$5.50</h2>
 		  					</div>
 
 
@@ -147,7 +148,7 @@
   			<a id="mobiledonebutton1" class="doneNoodBut" href="cart.html">ADD TO CART</a>
 
   			<a id="mobiledonebutton2" class="doneNoodBut" href="cart.html">ADD TO CART</a>
-  			<a id="mobiledonebutton2" class="doneNoodBut" href="choosenoodle.html">CREATE NEW</a>
+  			<a id="mobiledonebutton2" class="doneNoodButC" href="choosenoodle.html">CREATE NEW</a>
   		</article>
   		<script src="js/jquery.js"></script>
       <script src="js/ui.js"></script>

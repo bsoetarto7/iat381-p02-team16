@@ -12,34 +12,83 @@
   	</head>
 
   	<body>
+      <div id="tablet" class="grid">
+          <div class="col-1of4">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="tablet"class="header">
+            <div class="col-1of4">
+              <p><a href="menu.html">FOOD MENU</a></p>
+            </div>
+            <div class="col-1of4">
+              <p><a href="choosenoodle.html">CREATE NOODLE </a></p>
+            </div>
+            <div class="col-1of4">
+              <p class="tablet"><a class="menutop1"><span class="line"></span></a></p>      
+            </div>
+          </nav>   
+      </div>
+      <div id="tablet2" class="grid">
+
+        <nav id ="tablet2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
+
+      <div id="mobile" class="grid">
+          <div class="col-twoofseven">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="mobile"class="header">
+            <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
+        </nav>   
+      </div>
+      <div id="mobile2" class="grid">
+
+        <nav id ="mobile2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="menu.html">MENU</a></p>
+            <p><a href="choosenoodle.html">CREATE NOODLE</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
   		<header class="grid">
-  			<div class="col-6of24">
-  				<a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
-  			</div>
   			<nav class="header">
+          <div class="col-6of24">
+            <a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
+          </div>
 	  			<div class="col-2of24">
-	  				<p><a href="about.html">ABOUT</a></p>
+	  				<p><a id="topnav" href="about.html">ABOUT</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="news.html">NEWS</a></p>
+	  				<p><a id="topnav" href="news.html">NEWS</a></p>
 	  			</div>
 	  			<div  class="col-2of24">
-	  				<p><a href="menu.html">MENU</a></p>
+	  				<p><a id="topnav" href="menu.html">MENU</a></p>
 	  			</div>
 	  			<div class="col-4of24">
-	  				<p><a href="choosenoodle.html">CREATE NOODLES</a></p>
+	  				<p><a id="topnav" href="choosenoodle.html">CREATE NOODLES</a></p>
 	  			</div>
 	  			<div class="col-1of24">
 	  				<p></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="contact.html">CONTACT</a></p>
+	  				<p><a id="topnav" href="contact.html">CONTACT</a></p>
 	  			</div>
 	  			<div class="col-3of24">
-	  				<p><a  href="cart.html">MY CART</a></p>
+	  				<p><a id="topnav" href="cart.html">MY CART</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="login.html">LOG IN</a></p>
+	  				<p><a id="topnav" href="login.html">LOG IN</a></p>
 	  			</div>
   			</nav>
   		</header>
@@ -47,20 +96,20 @@
   		<article id="content">
   		<div class="grid">
   			<div class="col-1of5">
-  				<a class="sideonpage" href="#cartnoodles">Cart Noodles</a>
-          		<a class="side" href="menu.html">Soup</a>
-          		<a class="side" href="menu.html">Drinks</a>
-          		<a class="side" href="menu.html">Dessert</a>
+  				<a id="detailview"class="side" href="menu.html">Cart Noodles</a>
+          		<a id="detailview"class="side" href="menu.html">Soup</a>
+          		<a id="detailview"class="side" href="menu.html">Drinks</a>
+          		<a id="detailview"class="side" href="menu.html">Dessert</a>
   			</div>
   			<div class="col-4of5">
   				<article id="paddingleft">
   					<h1 class="globalDetailview"><img class="ratingdetailview"src="img/star.jpg">Fishball Nood</h1>
   					
 
-	  				<div class="col-1of2">
+	  				<div id="detailview" class="col-1of2">
 	  					<img class="home"src="img/bignews1.jpg" width="90%" height="90%">
 	  				</div>
-	  				<div class="col-1of2">
+	  				<div id="detailview" class="col-1of2">
 	  					<h3>$6.75</h3>
               <p class="detailviewDescription">DESCRIPTION:</p>
               <p class="detailview">This is our new product. All the toppings are Hong Kong street snack, including curry fish ball, chinese red sasusage, pig blood and chinese radish. It services with our sepcial homemade soup. It would be the best choice if you want to eat many snack at once!</p>
@@ -93,7 +142,7 @@
 
   				</article>
   			</div>
-  			<div class="col-4of5">
+  			<div id="comments" class="col-4of5">
   				<article id="paddingleft">
   					<h1 class="globalDetailview2">OTHER COMMENTS<a class="prodcommentdetailview">(86 comments)</a></h1> 
   					<div id="othercomments"> 					
@@ -112,4 +161,6 @@
   			</div>
   		</div>
   		</article>
+      <script src="js/jquery.js"></script>
+      <script src="js/ui.js"></script>
   	</body>

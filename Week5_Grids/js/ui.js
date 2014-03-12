@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//debuggin code	
-	$("img").click(function(){
+	$("img.menu").click(function(){
 		if(($(this).attr("id"))=="unselected"){
 			console.log($(this).attr("id"))
 			$(this).attr("id","selected");
@@ -13,9 +13,9 @@ $(document).ready(function(){
 			$("a#selectside5.sideNone").attr("class","sideonpage")
 										.attr("href","donenood.html");
 		}
-		// if(($(this).attr("id"))==="selected"){
-		// 	$(this).attr("id","unselected");
-		// }  		
+		else{
+			$(this).attr("id","unselected");
+		}  		
 	});
 
 	$("#div1").show();
@@ -57,43 +57,43 @@ $(document).ready(function(){
 /*----------------------------- Sidebar scroll to with an offset -----------------------------*/
 	$("#aboutusbutton").click( function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#aboutus", 1000, {offset:({ top:-135, left:0 }) } );
+		$(window).scrollTo( "#aboutus", 1000, {offset:({ top:-120, left:0 }) } );
 	});
 
 	$("#historybutton").click( function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#history", 1000, {offset: ({ top:-135, left:0 })} );
+		$(window).scrollTo( "#history", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 
 	$("#cartnoodlesbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#cartnoodles", 1000, {offset:({ top:-125, left:0 }) } );
+		$(window).scrollTo( "#cartnoodles", 1000, {offset:({ top:-120, left:0 }) } );
 	});
 
 	$("#soupbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#soup", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#soup", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 	$("#drinksbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#drinks", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#drinks", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 	$("#dessertbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 
 	$("#newsmobileN").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#news", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#news", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 	$("#newsmobileP").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#promotion", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#promotion", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 	$("#newsmobileE").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#events", 1000, {offset: ({ top:-125, left:0 })} );
+		$(window).scrollTo( "#events", 1000, {offset: ({ top:-120, left:0 })} );
 	});
 
 });

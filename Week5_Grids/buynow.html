@@ -12,46 +12,95 @@
   	</head>
 
   	<body>
+  		<div id="tablet" class="grid">
+          <div class="col-1of4">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="tablet"class="header">
+            <div class="col-1of4">
+              <p><a href="menu.html">FOOD MENU</a></p>
+            </div>
+            <div class="col-1of4">
+              <p><a href="choosenoodle.html">CREATE NOODLE </a></p>
+            </div>
+            <div class="col-1of4">
+              <p class="tablet"><a class="menutop1"><span class="line"></span></a></p>      
+            </div>
+          </nav>   
+      </div>
+      <div id="tablet2" class="grid">
+
+        <nav id ="tablet2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
+
+      <div id="mobile" class="grid">
+          <div class="col-twoofseven">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="mobile"class="header">
+            <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
+        </nav>   
+      </div>
+      <div id="mobile2" class="grid">
+
+        <nav id ="mobile2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="menu.html">MENU</a></p>
+            <p><a href="choosenoodle.html">CREATE NOODLE</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
   		<header class="grid">
-  			<div class="col-6of24">
-  				<a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
-  			</div>
   			<nav class="header">
+  				<div class="col-6of24">
+  					<a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
+  				</div>
 	  			<div class="col-2of24">
-	  				<p><a href="about.html">ABOUT</a></p>
+	  				<p><a id="topnav" href="about.html">ABOUT</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="news.html">NEWS</a></p>
+	  				<p><a id="topnav" href="news.html">NEWS</a></p>
 	  			</div>
 	  			<div  class="col-2of24">
-	  				<p><a href="menu.html">MENU</a></p>
+	  				<p><a id="topnav" href="menu.html">MENU</a></p>
 	  			</div>
 	  			<div class="col-4of24">
-	  				<p><a href="choosenoodle.html">CREATE NOODLES</a></p>
+	  				<p><a id="topnav" href="choosenoodle.html">CREATE NOODLES</a></p>
 	  			</div>
 	  			<div class="col-1of24">
 	  				<p></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="contact.html">CONTACT</a></p>
+	  				<p><a id="topnav" href="contact.html">CONTACT</a></p>
 	  			</div>
 	  			<div class="col-3of24">
 	  				<p><a class="onpage" href="cart.html">MY CART</a></p>
 	  			</div>
 	  			<div class="col-2of24">
-	  				<p><a href="login.html">LOG IN</a></p>
+	  				<p><a id="topnav" href="login.html">LOG IN</a></p>
 	  			</div>
   			</nav>
   		</header>
 
-  		<article id="content">
+  		<article id="content4">
   			<div class="grid">
 	  			<div class="col-1of5">
-	  				<a class="side" href="cart.html">My Cart</a>
-	          		<a class="sideonpage" href="buynow.html">Ordering Method</a>
-	          		<a class="sideNone" href="">Personal & Billing Information</a>
-	          		<a class="sideNone" href="">Confirmation</a>
-	          		<a class="sideNone" href="">Receipt</a>
+	  				<a id ="checkoutC" class="side" href="cart.html">My Cart</a>
+	          		<a id ="checkout" class="sideonpage" href="buynow.html">Ordering Method</a>
+	          		<a id ="checkout" class="sideNone" href="">Personal & Billing Information</a>
+	          		<a id ="checkout" class="sideNone" href="">Confirmation</a>
+	          		<a id ="checkout" class="sideNone" href="">Receipt</a>
 	  			</div>
 
 	  			
@@ -59,7 +108,7 @@
 	  				<article id="paddingleft">
 	  				<h1 class="global">ORDERING METHOD</h1>
 
-	  				<div class="col-1of2">
+	  				<div id="buynow"class="col-1of2">
 	  					<h2><a class ="dineinBut" id="dineinBut">DINE IN</a></h2>
 	  					<div id="div1">
 	  						<form method="post" action="#" id="dinein">
@@ -77,7 +126,7 @@
 	  					</div>
 	  				</div>
 
-	  				<div class="col-1of2">
+	  				<div id="buynow"class="col-1of2">
 	  					<h2><a class ="takeoutBut" id="takeoutBut">TAKE OUT</a></h2>
 	  					<div id="div2">
 	  						<form method="post" action="#" id="dinein">

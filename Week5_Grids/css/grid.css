@@ -93,129 +93,9 @@
 	box-sizing:border-box;
 }
 
-@media(max-width: 1167px){
-	body{
-		margin-left: 3rem;
-		margin-right: 3rem;
-	}
-	header{
-		width: 80%;
-	}
-	h3#donenood{
-		font-size: 1rem;
-	}
-	h3.cart{
-		font-size: 0.9rem;
-	}
-
-	img.donenood{
-		width:70%;
-		height:70%;
-	}
-
-}
-
-
-@media(max-width: 1100px){
-	body{
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
-	header{
-
-		width: 84%;
-	}
-
-	h3#donenood{
-		font-size: 1rem;
-	}
-	h3.cart{
-		font-size: 0.9rem;
-	}
-
-	nav.header a{
-		font-size: 0.8rem;
-	}
-
-	a.prodcomment{
-		margin-top: 0;
-	}
-
-	h1.global,h1.topFive{
-		font-size: 1.7rem;
-	}
-
-	p.aboutus,p.history,p.news,
-	p.promotion,p.events{
-		font-size: 0.8rem;
-	}
-	p.homeNrow{
-		font-size: 0.75rem;
-	}
-	p.homepromo{
-		font-size: 0.75rem;
-	}
-
-	p.homeside,p.homesideonpage{
-		font-size: 0.8rem;
-	}
-
-	p.cartNrow{
-		font-size:0.85rem;
-	}
-
-	p.cartProw{
-		font-size: 0.85rem;
-		/*margin-right: 0;*/
-	}
-	p.cartDrow{
-		font-size: 0.75rem;
-		width: 90%;
-		/*margin-right: 0;*/
-	}
-
-
-
-	img.logo{
-		width:90%;
-	}
-	img.menu{
-		width:90%;
-	}
-	img#unselected.menu{
-		width: 90%;
-		height: 90%;
-	}
-
-	img#selected.menu{
-		width:80%;
-		height: 80%;
-	}
-
-	img.about{
-		width:100%;
-	}
-	img.homebottom{
-		width:90%;
-		height:142px;
-	}
-	img.rating{
-		width:40%;
-	}
-	img.donenood{
-		width:70%;
-		height:70%;
-	}
-
-}
-
 
 /*Tablet size*/
-@media(max-width: 900px){
-	body{
-		margin-left: 0;
-		margin-right: 0;
-	}
+@media(max-width: 950px){
 	header{
 		display: none;
 	}
@@ -231,11 +111,14 @@
 	h1.global,h1.topFive{
 		font-size: 1.7rem;
 	}
+	a.side,a.sideonpage,a.sideNone{
+		width:90%;
+	}
 
-	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
+/*	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
 	p.promotion,p.events{
 		font-size: 0.8rem;
-	}
+	}*/
 
 	p.homeside,p.homesideonpage{
 		font-size: 0.8rem;
@@ -280,16 +163,17 @@
 	}
 	img#unselected.menu{
 		width: 95%;
-		height: 95%;
 	}
 
 	img#selected.menu{
 		width:85%;
-		height: 85%;
 	}
 	img.homeside{
 		margin-left: 10%;
 		width:80%;
+	}
+	img.ratingdetailview{
+		display: none;
 	}
 
 
@@ -302,69 +186,30 @@
 
 	
 }
+@media(max-width: 870px){
 
-/*-------------------- 700px Size -------------------- */
-@media(max-width: 700px){
-/*---------- Columns ----------*/
-	.col-1of3{
-		width: 50%;
-	}
-/*---------- End Of Columns ----------*/
-
-/*---------- ids ----------*/
-	#donenood.col-1of3{
-		width: 33%;
-	}
-	#homeside.col-1of3{
-		display: block;
-		width: 100%;
-	}
-/*---------- End Of ids ----------*/
-
-/*---------- Image ----------*/
-	img.homebottom{
-		width:90%;
-		height: 113px;
-	}
-/*---------- End Of Image ----------*/
-
-/*---------- h tags ----------*/
-	h3#donenood{
-		margin-right: 0.5rem;
-		font-size: 0.7rem;
-	}
-/*---------- End of h tags ----------*/
-
-/*---------- Paragraphs ----------*/
-	p.homesideonpage,p.homeside{
-		width: 30%;
-		font-size: 0.6rem;
-	}
-
-	p.homesideonpage:hover,p.homeside:hover{
-		width:30%;
-		font-size: 0.6rem;
-	}
-
-	p.homeNrow,p.homeProw{
-		font-size: 0.6rem;
-	}
-
-	p.homeProw{
-		margin-right: 0.8rem;
-	}
-/*---------- End Of Paragraphs ----------*/
-
-	input.login{
-		width: 7rem;
+	#buynow.col-1of2{
+		width: 78%;
 	}
 }
-/*-------------------- End Of 700px Size -------------------- */
-
+@media(max-width: 790px){
+	div#signinsmall{
+		display: none;
+	}
+	#personalInfo.col-1of2{
+		width: 100%;
+	}
+	h3.cartquantity{
+		margin-left: 0;
+	}
+	input.promotioncode{
+		width: 84px;
+	}
+}
 
 /*-------------------- phone size -------------------- */
 
-@media(max-width: 400px){
+@media(max-width: 600px){
 	#content{
 		padding-top: 8rem;
 	}
@@ -378,8 +223,12 @@
 
 /*---------- Columns ----------*/
 	.col-1of2{
-		width: 100%;
+		width: 50%;
 		margin-bottom: 3rem;
+	}
+	#detailview.col-1of2{
+		width: 100%;
+		margin-bottom: 0.5rem;
 	}
 	#secondstore.col-1of2{
 		margin-top: 0;
@@ -395,6 +244,8 @@
 	}
 	#createnood.col-1of3{
 		width: 50%;
+		max-height: 285px;
+		margin-bottom: 1rem;
 	}
 	.col-oneof5{
 		width: 50%;
@@ -435,13 +286,6 @@
 		padding-left: 0;		
 	}
 
-	#selected{
-		height:135px;
-		width: 200px;
-		padding: 0.2rem;
-		background-color: #2dacbe;
-	}
-
 	#paddingleft{
 		padding-left: 0.5rem;
 	}
@@ -468,7 +312,7 @@
 
 	a#cartnoodlesbutton.side,a#soupbutton.side,a#drinksbutton.side,
 	a#dessertbutton.side{
-		width: 18%;
+		width: 19%;
 	}
 
 	a.sideonpage,a.sideNone{
@@ -491,7 +335,8 @@
 	}
 
 	a.prodcomment{
-		font-size: 0.3rem;
+		margin-top: 0.5rem;
+		font-size: 0.6rem;
 	}
 
 	a#mobiledonebutton1.doneNoodBut{
@@ -499,6 +344,21 @@
 		display: inline-block;
 		margin-right: 1rem;
 		width: 40%;
+	}
+	a#checkout{
+		width:22%;
+		height:39px;
+		padding: 1rem 0.09rem;
+	}
+	a#checkout.side{
+		padding: 1rem 0.1rem;
+	}
+	a#checkoutC{
+		display: none;
+	}
+	a#detailview{
+		width: 19%;
+		padding: 0.5rem ;
 	}
 
 
@@ -563,6 +423,17 @@
 		font-weight: bold;
 		width: 100%;
 	}
+	p.homeProw{
+		font-size: 0.9rem;
+		margin-right: 10%;
+	}
+	p.homeNrow{
+		font-size: 0.9rem;
+		width:100px;
+	}
+	p.cartProw{
+		margin-right: 20%;
+	}
 
 
 
@@ -597,7 +468,8 @@
 	}
 
 	img.homebottom{
-		width: 170px;
+		width: 90%;
+		height: 170px;
 	}
 
 	img.news{
@@ -607,16 +479,26 @@
 	img.menu{
 		text-align: center;
 		display: block;
-		width:175px;
+		width:87%;
+		height:168px;
+
 	}
 
 	img#unselected.menu{
 		text-align: center;
 		display: block;
-		width:170px;
+		width:87%;
+		height:168px;
+	}
+
+	img#selected{
+		width: 87%;
+		height:155.2px;
+		padding: 0.4;
+		background-color: #2dacbe;
 	}
 	img.rating{
-		width:90px;
+		width:40%;
 	}
 
 	img.donenood{
@@ -641,24 +523,35 @@
 		display: none;
 	}
 /*---------- End of div Tags ----------*/
-
-	input.login{
-		width: 13rem;
+	input.promotioncode{
+		width: 80px;
 	}
 
 
 }	
 /*-------------------- end of phone size -------------------- */
 
-@media(min-width:901px){
+@media(max-width: 400px){
+	input.promotioncode{
+		width: 60px;
+	}
+}
+
+@media(max-width: 500px){
+	.col-1of2{
+		width: 100%;
+	}
+}
+
+@media(min-width:951px){
 	div#tablet{
 		display: none;
 	}
 	
 
 }
-@media(min-width: 401px){
-	div#mobile{
+@media(min-width: 601px){
+	div#mobile,div#mobile2{
 		display: none;
 	}
 	a#mobiledonebutton1{
