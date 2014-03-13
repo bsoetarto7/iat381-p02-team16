@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+<!--     <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+  	</head>
+
+  	<body>
+           <div id="tablet" class="grid">
+          <div class="col-1of4">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="tablet"class="header">
+          <div class="col-1of4">
+            <p><a href="menu.html">FOOD MENU</a></p>
+          </div>
+          <div class="col-1of4">
+            <p><a href="choosenoodle.html">CREATE NOODLE </a></p>
+          </div>
+          <div class="col-1of4">
+            <p class="mobile"><a class="menutop1"><span class="line"></span></a></p>      
+          </div>
+        </nav>   
+      </div>
+      <div id="tablet2" class="grid">
+
+        <nav id ="tablet2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
+
+      <div id="mobile" class="grid">
+          <div class="col-twoofseven">
+            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+          </div>
+
+          <nav id ="mobile"class="header">
+            <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
+        </nav>   
+      </div>
+      <div id="mobile2" class="grid">
+
+        <nav id ="mobile2"class="header">
+            <p><a href="about.html">ABOUT</a></p>
+            <p><a href="news.html">NEWS</a></p>
+            <p><a href="menu.html">MENU</a></p>
+            <p><a href="choosenoodle.html">CREATE NOODLE</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+            <p><a href="cart.html">MY CART</a></p>
+            <p><a href="login.html">LOG IN</a></p>
+        </nav>   
+      </div>
+
+  		<header class="grid">	
+  			<nav class="header">
+          <div class="col-6of24">
+            <a href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
+          </div>
+	  			<div class="col-2of24">
+	  				<p><a id="topnav" href="about.html">ABOUT</a></p>
+	  			</div>
+	  			<div class="col-2of24">
+	  				<p><a id="topnav" href="news.html">NEWS</a></p>
+	  			</div>
+	  			<div class="col-2of24">
+	  				<p><a id="topnav" href="menu.html">MENU</a></p>
+	  			</div>
+	  			<div class="col-4of24">
+	  				<p><a id="topnav" href="choosenoodle.html">CREATE NOODLES</a></p>
+	  			</div>
+	  			<div class="col-1of24">
+	  				<p></p>
+	  			</div>
+	  			<div class="col-2of24">
+	  				<p><a id="topnav" href="contact.html">CONTACT</a></p>
+	  			</div>
+	  			<div class="col-3of24">
+	  				<p><a class="onpage" href="cart.html">MY CART</a></p>
+	  			</div>
+	  			<div class="col-2of24">
+	  				<p><a id="topnav" href="login.html">LOG IN</a></p>
+	  			</div>
+  			</nav>
+  		</header>
+
+      	<article id="content">
+      		
+  			<div class="grid">
+  				<div class="col-1of5">
+  					<h1 class="cartpage">MY CART</h1> 
+  				</div>
+
+  				<div class="col-4of5">
+  					<article id="cartlines">
+		  				<div class="col-2of4">
+		  					<h3 id="carttitle">CART NOODLE</h3>
+		  				</div>
+
+		  				<div class="col-1of4">
+		  					<h3 class="cartquantity" id="carttitle">QUANTITY</h3>
+		  				</div>
+
+		  				<div class="col-1of4">
+		  					<h3 class="cartprice" id="carttitle">PRICE</h3>
+		  				</div>
+            </article>
+          </div>
+
+          <div class="col-4of5">
+            <article id="paddingleftNext">
+              <div class="col-2of4">
+                <img class="cart" src="img/nood1.jpg" width="80" height="80">
+                <h3 id="cartitemname">Fishball Nood</h3>
+                <p class="cart"><a class="cart" href="detailview.html">VIEW DETAILS</a> / <a class="cart" href="cart.html">REMOVE</a></p>
+              </div>
+
+              <div class="col-1of4">
+                <h3 class="cartquantity">1</h3>
+              </div>
+
+              <div class="col-1of4">
+                <h3 class="cartprice">$6.75</h3>
+              </div>
+            </article>
+          </div>
+  			</div>
+
+  			<div class="grid">
+  				<div class="col-4of5" id="carttotal">
+  					<div class="col-1of4" id="total">
+              <input class="promotioncode" type="text" name="" value="">
+  						<h3 class ="cart">$6.75</h3>
+  						<h3 class ="cart">$0.34</h3>
+  						<h3 class="cart" id="carttotalprice" >$7.09</h3>
+  					</div>
+  					<div class="col-1of4" id="total">
+              <h3 class="cart">PROMOTION:</h3>
+  						<h3 class="cart">SUB-TOTAL:</h3>
+  						<h3 class="cart">GST/HST:</h3>
+  						<h3 class="cart" id="carttotalprice">TOTAL:</h3>
+  					</div>
+  				</div>
+	  		</div>
+  		</article>
+      
+  		<article id="content2">
+  			<a class="cartBut2" href="buynow.html">ORDER NOW</a>
+  			<a class="cartBut" href="menu.html">BACK TO MENU</a>	
+  		</article>
+      <script src="js/jquery.js"></script>
+      <script src="js/ui.js"></script>
+  	</body>
+</html>
