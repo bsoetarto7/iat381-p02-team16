@@ -1,5 +1,5 @@
+// This is where functions such as clicking onto menu button causes a menu to appear
 $(document).ready(function(){
-	//debuggin code	
 	$("img.menu").click(function(){
 		if(($(this).attr("id"))=="unselected"){
 			console.log($(this).attr("id"))

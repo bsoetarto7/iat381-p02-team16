@@ -1,7 +1,4 @@
-/*.view-first{
-   width: 170px;
-   height: 170px;
-}*/
+/*This is where the mask for image hover for the food menu*/
 .view-first img {
    -webkit-transition: all 0.2s linear;
    -moz-transition: all 0.2s linear;
@@ -28,42 +25,8 @@
    -ms-transform: translateY(60px);
    transform: translateY(60px);
 }
-/*.view-first h2 {
-   -webkit-transform: translateY(-100px);
-   -moz-transform: translateY(-100px);
-   -o-transform: translateY(-100px);
-   -ms-transform: translateY(-100px);
-   transform: translateY(-100px);
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
-   opacity: 0;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-}*/
-/*.view-first p {
-   -webkit-transform: translateY(100px);
-   -moz-transform: translateY(100px);
-   -o-transform: translateY(100px);
-   -ms-transform: translateY(100px);
-   transform: translateY(100px);
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
-   opacity: 0;
-   -webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -o-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
-   transition: all 0.2s linear;
-}*/
+
 .view-first:hover img {
- /*  -webkit-transform: scale(1.1,1.1);
-   -moz-transform: scale(1.1,1.1);
-   -o-transform: scale(1.1,1.1);
-   -ms-transform: scale(1.1,1.1);
-   transform: scale(1.1,1.1);*/
    opacity: 0.5;
 
 }
@@ -88,33 +51,12 @@
    filter: alpha(opacity=100);
    opacity: 100;
 }
-/*.view-first:hover h2,
-.view-first:hover p,*/
+
 .view-first:hover a.info {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
-/*   -webkit-transform: translateY(-142px);
-   -moz-transform: translateY(-142px);
-   -o-transform: translateY(-142px);
-   -ms-transform: translateY(-142px);
-   transform: translateY(-142px);*/
 }
-/*.view-first:hover p {
-   -webkit-transition-delay: 0.1s;
-   -moz-transition-delay: 0.1s;
-   -o-transition-delay: 0.1s;
-   -ms-transition-delay: 0.1s;
-   transition-delay: 0.1s;
-}*/
-/*.view-first:hover a.info {
-   -webkit-transition-delay: 0.2s;
-   -moz-transition-delay: 0.2s;
-   -o-transition-delay: 0.2s;
-   -ms-transition-delay: 0.2s;
-   transition-delay: 0.2s;
-}*/
-
 
 a.info{
    font-family: 'Open Sans', sans-serif;

@@ -1,11 +1,11 @@
 <!doctype html>
+<!-- This is the first index page -->
 <html lang="en">
 	<head>
 
     <meta charset="utf-8">
     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nood Restaurant</title>
-<!--     <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/imagehover.css">
@@ -13,6 +13,7 @@
   	</head>
 
   	<body>
+      <!-- This is where the header for tablet size between 600px-900px -->
       <div id="tablet" class="grid">
           <div class="col-1of4">
             <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
@@ -30,8 +31,8 @@
             </div>
           </nav>   
       </div>
+      <!-- This is where a list of links will be shown when the menu button is clicked on -->
       <div id="tablet2" class="grid">
-
         <nav id ="tablet2"class="header">
             <p><a href="about.html">ABOUT</a></p>
             <p><a href="news.html">NEWS</a></p>
@@ -40,18 +41,17 @@
             <p><a href="login.html">LOG IN</a></p>
         </nav>   
       </div>
-
+      <!-- This is where the mobile header will appear from 600px and below. -->
       <div id="mobile" class="grid">
-          <div class="col-twoofseven">
-            <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
-          </div>
-
-          <nav id ="mobile"class="header">
-            <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
+        <div class="col-twoofseven">
+          <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
+        </div>
+        <nav id ="mobile"class="header">
+          <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
         </nav>   
       </div>
+      <!-- This is where a list of links will be shown when the menu button is clicked on -->
       <div id="mobile2" class="grid">
-
         <nav id ="mobile2"class="header">
             <p><a href="about.html">ABOUT</a></p>
             <p><a href="news.html">NEWS</a></p>
@@ -62,10 +62,8 @@
             <p><a href="login.html">LOG IN</a></p>
         </nav>   
       </div>
-
-  		<header id="windows" class="grid">
-  			
-       
+      <!-- This is where the normal window size header is -->
+  		<header id="windows" class="grid"> 
   			<nav class="header">
           <div class="col-6of24">
             <a  href="index.html"><img class="logo" src="img/logo1.jpg" width="225" height="60"></a>
@@ -96,7 +94,7 @@
 	  			</div>
   			</nav>
   		</header>
-
+      <!-- This is where the first content is being displayed seperated into 3 columnes, text, picture and side links -->
       <article id="content3">
     		<div class="grid">
     			<div id="home" class="col-1of3">
@@ -125,17 +123,16 @@
 
       	</div>
       </article>
-
+      <!-- This is the second content that contains the top 5 noodle and their picture -->
       <article id="content2">
     		<h1 class="topFive">TOP FIVE CART NOODLES</h1>
     		<div class="grid">
     			<div class="col-oneof5">
-            <!-- <a href="detailview.html"><img class="homebottom"src="img/nood1.jpg" width="170" height="170"></a> -->
             <div class="view-first">  
-                 <a href="detailview.html"><img class="homebottom"src="img/nood1.jpg" width="170" height="170"></a>
-                 <div class="mask">  
-                     <a href="detailview.html" class="info">VIEW DETAILS</a>  
-                 </div>  
+               <a href="detailview.html"><img class="homebottom"src="img/nood1.jpg" width="170" height="170"></a>
+               <div class="mask">  
+                   <a href="detailview.html" class="info">VIEW DETAILS</a>  
+               </div>  
             </div> 
             <p class="homeNrow">Fishball Nood</p>
             <p class="homeProw">$6.75</p>
@@ -143,10 +140,10 @@
     			</div>
     			<div class="col-oneof5">
             <div class="view-first">  
-                 <a href="detailview.html"><img class="homebottom"src="img/nood2.jpg" width="170" height="170"></a>
-                 <div class="mask">  
-                     <a href="detailview.html" class="info">VIEW DETAILS</a>  
-                 </div>  
+               <a href="detailview.html"><img class="homebottom"src="img/nood2.jpg" width="170" height="170"></a>
+               <div class="mask">  
+                   <a href="detailview.html" class="info">VIEW DETAILS</a>  
+               </div>  
             </div>
             
             <p class="homeNrow">Healthy Nood</p>
@@ -156,10 +153,10 @@
     			<div class="col-oneof5">
 
             <div class="view-first">  
-                 <a href="detailview.html"><img class="homebottom"src="img/nood3.jpg" width="170" height="170"></a>
-                 <div class="mask">  
-                     <a href="detailview.html" class="info">VIEW DETAILS</a>  
-                 </div>  
+               <a href="detailview.html"><img class="homebottom"src="img/nood3.jpg" width="170" height="170"></a>
+               <div class="mask">  
+                   <a href="detailview.html" class="info">VIEW DETAILS</a>  
+               </div>  
             </div> 
             <p class="homeNrow">Beef Lover</p>
             <p class="homeProw">$6.75</p>
@@ -189,7 +186,7 @@
     			</div>
   		  </div>
     </article>
-
+    <!-- Connect the html file with the jquery UI file -->
     <script src="js/jquery.js"></script>
     <script src="js/ui.js"></script>
   	</body>

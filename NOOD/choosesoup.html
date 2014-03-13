@@ -5,18 +5,17 @@
     <meta charset="utf-8">
     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Your Noodle</title>
-<!--     <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
 
   	</head>
 
   	<body>
-            <div id="tablet" class="grid">
+      <!-- This is where the header for tablet size between 600px-900px -->
+      <div id="tablet" class="grid">
           <div class="col-1of4">
             <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
           </div>
-
           <nav id ="tablet"class="header">
           <div class="col-1of4">
             <p><a href="menu.html">FOOD MENU</a></p>
@@ -29,8 +28,8 @@
           </div>
         </nav>   
       </div>
+      <!-- This is where a list of links will be shown when the menu button is clicked on -->
       <div id="tablet2" class="grid">
-
         <nav id ="tablet2"class="header">
             <p><a href="about.html">ABOUT</a></p>
             <p><a href="news.html">NEWS</a></p>
@@ -39,7 +38,7 @@
             <p><a href="login.html">LOG IN</a></p>
         </nav>   
       </div>
-
+      <!-- This is where the mobile header will appear from 600px and below. -->
       <div id="mobile" class="grid">
           <div class="col-twoofseven">
             <a  href="index.html"><img class="logo" src="img/logo3.jpg"></a>
@@ -49,8 +48,8 @@
             <p class="mobile"><a class="menutop"><span class="line"></span></a></p>      
         </nav>   
       </div>
+      <!-- This is where a list of links will be shown when the menu button is clicked on -->
       <div id="mobile2" class="grid">
-
         <nav id ="mobile2"class="header">
             <p><a href="about.html">ABOUT</a></p>
             <p><a href="news.html">NEWS</a></p>
@@ -61,6 +60,7 @@
             <p><a href="login.html">LOG IN</a></p>
         </nav>   
       </div>
+      <!-- This is where the normal window size header is -->
   		<header class="grid">
   			<nav class="header">
           <div class="col-6of24">
@@ -93,6 +93,8 @@
   			</nav>
   		</header>
 
+      <!-- This is where the list of soups for users to choose from are being displayed the pictures are selectable and
+      it will unlock the 2nd step and so on -->
   		<article id="content4">
   			<div class="grid">
   			<div class="col-1of5">
@@ -164,24 +166,6 @@
               <a class="prodcomment" href="">20 Comments</a>
   					</div>
 
-<!--   					<div class="col-1of3">
-              <img class="menu"src="img/soup_egg.jpg" width="210" heigh="150">
-              <p class="cartNrow">Egg Soup</p>
-              <p class="cartProw">$2.00</p>
-              <p class="cartDrow">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              <img class="rating"src="img/star.jpg">
-              <a class="prodcomment" href="">20 Comments</a>
-            </div>
-
-            <div class="col-1of3">
-              <img class="menu"src="img/soup_tomato.jpg" width="210" heigh="150">
-              <p class="cartNrow">Tomato Soup</p>
-              <p class="cartProw">$2.00</p>
-              <p class="cartDrow">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              <img class="rating"src="img/star.jpg">
-              <a class="prodcomment" href="">20 Comments</a>
-            </div> -->
-
   				</article>
           
   			</div>
@@ -189,6 +173,7 @@
   		</div>
 
   		</article>
+      <!-- Connect the html file with the jquery UI file -->
       <script src="js/jquery.js"></script>
       <script src="js/ui.js"></script>
   	</body>
