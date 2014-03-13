@@ -129,9 +129,16 @@ a.info:hover{
 }
 
 
-/*@media(max-width: 400px){
+@media(max-width: 600px){
    .view-first .mask{
-      margin-left: 0.8rem;
+      margin-left: 9%;
    }
-}*/
+   .view-first a.info{
+      -webkit-transform: translateY(-159px);
+      -moz-transform: translateY(-142px);
+      -o-transform: translateY(-142px);
+      -ms-transform: translateY(-142px);
+      transform: translateY(-142px);
+   }
+}
             

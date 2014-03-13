@@ -67,20 +67,20 @@ $(document).ready(function(){
 
 	$("#cartnoodlesbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#cartnoodles", 1000, {offset:({ top:-120, left:0 }) } );
+		$(window).scrollTo( "#cartnoodles", 1000, {offset:({ top:-121.8, left:0 }) } );
 	});
 
 	$("#soupbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#soup", 1000, {offset: ({ top:-120, left:0 })} );
+		$(window).scrollTo( "#soup", 1000, {offset: ({ top:-121.8, left:0 })} );
 	});
 	$("#drinksbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#drinks", 1000, {offset: ({ top:-120, left:0 })} );
+		$(window).scrollTo( "#drinks", 1000, {offset: ({ top:-121.8, left:0 })} );
 	});
 	$("#dessertbutton").on('click', function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-120, left:0 })} );
+		$(window).scrollTo( "#dessert", 1000, {offset: ({ top:-121.8, left:0 })} );
 	});
 
 	$("#newsmobileN").on('click', function(clickEvent) {

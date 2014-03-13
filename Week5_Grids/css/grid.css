@@ -399,12 +399,14 @@
 
 /*---------- Paragraphs ----------*/
 	p.homesideonpage,p.homeside{
+		margin-top: 2rem;
 		width: 24%;
 		font-size: 0.6rem;
 	}
 
 	p.homesideonpage:hover,p.homeside:hover{
 		width:24%;
+		font-size: 0.6rem;
 	}
 
 	p.homepromo{
@@ -544,12 +546,18 @@
 }
 
 @media(min-width:951px){
-	div#tablet{
+	div#tablet2{
 		display: none;
 	}
-	
 
 }
+@media(min-width:600px){
+	div#tablet2{
+		display: none;
+	}
+
+}
+
 @media(min-width: 601px){
 	div#mobile,div#mobile2{
 		display: none;
