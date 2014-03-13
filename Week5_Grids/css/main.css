@@ -238,19 +238,22 @@ a.cart{
 	text-decoration: none;
 	color: black;
 }
+a#confirm.cart{
+	font-size: 0.6rem;
+}
 
 a.cart:hover{
 	text-decoration: underline;
 	color: black;
 }
 
-a.cartBut,a.persoanlbillBut,a.conBut,a.doneNoodBut,a.doneNoodButC{
+a.cartBut,a.persoanlbillBut,a.conBut,a.conBut2,a.doneNoodBut,a.doneNoodButC{
 	float:right;
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5rem;
-	/*margin-right: 3rem;*/
+	margin-right: 1.7rem;
 	background-color:  #ee5260 ;
 	/*border-radius: 10px;*/
 	width:130px;
@@ -271,6 +274,10 @@ a.cartBut2{
 	color: white;
 	margin-right: 1.3rem;
 }
+a.persoanlbillBut{
+	margin-top: 2rem;
+	margin-right: 300px;
+}
 
 a.createN{
 	margin-top: 2rem;
@@ -278,9 +285,12 @@ a.createN{
 a.doneNoodButC{
 	margin-right: 1rem;
 }
+a.conBut2{
+	margin-top: 2rem;
+}
 
 a.cartBut2:hover,a.cartBut:hover,a.persoanlbillBut:hover,a.conBut:hover,
-a.doneNoodBut:hover,a.doneNoodButC:hover{
+a.conBut2:hover,a.doneNoodBut:hover,a.doneNoodButC:hover{
 	color: black;
 }
 
@@ -517,7 +527,7 @@ p{
 	color: #5b5744;
 }
 p.homepromo, p.aboutus,p.history,p.news,p.promotion,p.events,
-p.contact,p.cart,p.pi,p.global{
+p.contact,p.cart,p.pi,p.global,p.pi1{
 	text-align: left;
 }
 p.contactH{
@@ -613,14 +623,24 @@ p.date2{
 p.quantity{
 	display: inline-block;
 	float: right;
+	margin-top: 1.5rem;
 	margin-right: 1rem;
+	font-weight: bold;
 }
 
 p.imagehover{
 	display: block;
 	margin: 0;
 }
-
+p.pi{
+	margin:0;
+}
+p.pi1{
+	margin-top: 0;
+}
+p.cart{
+	margin-top: 0;
+}
 /*a.side{
 	margin-bottom: 2rem;
 }*/
@@ -799,6 +819,12 @@ div#store.col-4of5{
 #donenoodDetail{
 	margin-top: 5rem;
 }
+#myorder{
+	padding-left: 6rem;
+}
+#myorder1{
+	margin-bottom: 2rem;
+}
 
 .rowGlobal{
 	display: inline-block;
@@ -812,6 +838,7 @@ div#store.col-4of5{
 #signinsmall{
 	margin-left: 5.8rem;
 }
+
 
 form{
 	display: inline-block;
@@ -876,7 +903,7 @@ input.login{
 	margin-bottom: 1rem;
 }
 select.detailview{
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	float: right;
 	margin-right: 2.2rem;
 	width:10%;

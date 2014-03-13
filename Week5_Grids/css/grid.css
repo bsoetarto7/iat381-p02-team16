@@ -11,6 +11,9 @@
 .col-1of2{
 	width: 50%;
 }
+.col-oneoftwo{
+	width: 50%;
+}
 
 .col-1of24{
 	width: 4.1666%;
@@ -114,6 +117,9 @@
 	a.side,a.sideonpage,a.sideNone{
 		width:90%;
 	}
+	a.prodcommentdetailview{
+		margin-right: 40%;
+	}
 
 /*	p.homeNrow,p.homepromo,p.aboutus,p.history,p.news,
 	p.promotion,p.events{
@@ -175,6 +181,13 @@
 	img.ratingdetailview{
 		display: none;
 	}
+	img.home{
+		width: 291px;
+		height: 291px;
+	}
+	img.news{
+		width: 100%;
+	}
 
 
 	
@@ -187,9 +200,46 @@
 	
 }
 @media(max-width: 870px){
-
+	#myorder,#myorder1{
+		margin-bottom: 2rem;
+	}
 	#buynow.col-1of2{
 		width: 78%;
+	}
+	#home.col-1of3{
+		width: 50%;
+	}
+	#homeside.col-1of3{
+		margin-top:3rem;
+		width: 100%;
+	}
+	#contact.col-1of2,#secondstore.col-1of2{
+		width: 100%;
+	}
+	#secondstore{
+		margin-top: 0;
+	}
+
+	p.homeside,p.homesideonpage{
+		width:28%;
+	}
+	p.homeside:hover,p.homesideonpage{
+		width:28%;
+	}
+	#confirm.col-1of2{
+		width: 100%;
+	}
+	#myorder{
+		padding-left: 0;
+	}
+	#personal.col-1of2{
+		display: none;
+	}
+
+}
+@media(max-width: 860px){
+	#detailview.col-1of2{
+		width: 100%;
 	}
 }
 @media(max-width: 790px){
@@ -199,11 +249,15 @@
 	#personalInfo.col-1of2{
 		width: 100%;
 	}
+
 	h3.cartquantity{
 		margin-left: 0;
 	}
 	input.promotioncode{
 		width: 84px;
+	}
+	a.prodcommentdetailview{
+		margin-right: 15%;
 	}
 }
 
@@ -226,6 +280,13 @@
 		width: 50%;
 		margin-bottom: 3rem;
 	}
+	#confirm.col-1of2{
+		margin-bottom: 0.5rem;
+	}
+	#contact.col-1of2,#secondstore.col-1of2{
+		margin-bottom: 0;
+	}
+
 	#detailview.col-1of2{
 		width: 100%;
 		margin-bottom: 0.5rem;
@@ -235,6 +296,12 @@
 	}
 	.col-1of3{
 		width: 100%;
+	}
+	#home.col-1of3{
+		width: 100%;
+	}
+	#homeside.col-1of3{
+		margin-top: 0.5rem;
 	}
 	#donenood.col-1of3{
 		width: 33%;
@@ -292,7 +359,9 @@
 	#cartlines,#paddingleftNext{
 		margin-left:0;
 	}
-
+	#donenoodDetail{
+		margin-top:0;
+	}
 /*---------- End Of ids ----------*/
 
 
@@ -379,6 +448,9 @@
 
 	h2{
 		font-size: 0.8rem;
+	}
+	h2.confirm{
+		font-size: 1rem;
 	}
 
 	h2#donenood{
@@ -528,6 +600,12 @@
 	input.promotioncode{
 		width: 80px;
 	}
+	input#dinein{
+		width: 90px;
+	}
+	select#dinein{
+		width: 97px;
+	}
 
 
 }	
@@ -536,6 +614,16 @@
 @media(max-width: 400px){
 	input.promotioncode{
 		width: 60px;
+	}
+	p.quantity{
+		float: left;
+		margin-right: 0;
+	}
+	select.detailview{
+		margin-right: 25%;
+	}
+	a.prodcommentdetailview{
+		display: none;
 	}
 }
 

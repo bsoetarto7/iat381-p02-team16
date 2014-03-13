@@ -57,12 +57,12 @@ $(document).ready(function(){
 /*----------------------------- Sidebar scroll to with an offset -----------------------------*/
 	$("#aboutusbutton").click( function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#aboutus", 1000, {offset:({ top:-120, left:0 }) } );
+		$(window).scrollTo( "#aboutus", 1000, {offset:({ top:-123, left:0 }) } );
 	});
 
 	$("#historybutton").click( function(clickEvent) {
 		clickEvent.preventDefault();
-		$(window).scrollTo( "#history", 1000, {offset: ({ top:-120, left:0 })} );
+		$(window).scrollTo( "#history", 1000, {offset: ({ top:-123, left:0 })} );
 	});
 
 	$("#cartnoodlesbutton").on('click', function(clickEvent) {
